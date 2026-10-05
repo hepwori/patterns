@@ -6,8 +6,8 @@ let slugToCategory = {};       // "alignment-mirage" → { id, title }
 let slugToSummary = {};        // "alignment-mirage" → "The illusion of…"
 let flatPatternOrder = [];     // [{ slug, title }, …] walked through categories in order
 
-/* Where this document is mounted — "/pmp/" on GitHub Pages, "/patterns/" when
-   served via the isaa.ch Cloudflare Worker (which injects a <base> tag).
+/* Where this document is mounted — "/" at patterns.isaa.ch, courtesy of the
+   <base href="/"> in index.html (deep links get the SPA shell from Pages' fallback).
    Fixed at load time; unaffected by later pushState calls. */
 let mountPath = new URL(document.baseURI).pathname;
 if (!mountPath.endsWith('/')) mountPath += '/';
@@ -46,8 +46,7 @@ async function boot() {
   window.addEventListener('popstate', route);
 
   // Intercept clicks on in-app links and route via pushState instead of a
-  // full page load (which would work too, via the Worker's SPA fallback on
-  // isaa.ch — but wouldn't on a bare GitHub Pages load of a deep path).
+  // full page load (which would work too, via Pages' SPA fallback).
   document.addEventListener('click', e => {
     const a = e.target.closest('a[href]');
     if (!a || a.target === '_blank' || a.hasAttribute('download')) return;

@@ -18,16 +18,13 @@ A pattern language for product management in complex organizations, authored by 
 
 ## Deployment & serving
 
-This directory is the only source of truth for content and code — it's served two ways simultaneously, and both are just views onto these same files:
+Served by Cloudflare Pages (project `patterns`, git-connected to `main`, no build step, output dir = repo root) at **`patterns.isaa.ch`**. Push to `main` and it redeploys in ~30s.
 
-- **`hepwori.github.io/pmp/`** — plain GitHub Pages, serving this directory as static files. No build step.
-- **`isaa.ch/patterns/`** — the promoted public URL. A Cloudflare Worker (`isaa-ch-patterns`, source in `cloudflare-worker.js`, deployed via `wrangler deploy`) is bound to a Workers Route `isaa.ch/patterns*` on the `isaa.ch` zone. It reverse-proxies asset requests (anything with a file extension) straight to the matching path on `hepwori.github.io/pmp/`, and serves the SPA shell (`index.html`, with a `<base href="/patterns/">` tag injected via `HTMLRewriter`) for every other sub-path — the standard SPA-fallback trick, needed because GitHub Pages has no server-side rewrite of its own.
+- There's no `404.html`, so Pages runs in SPA mode: any path that isn't a real file gets `index.html`. That's what makes deep links like `/alignment-mirage` work.
+- `index.html` has `<base href="/">` so relative asset/content URLs resolve correctly from deep paths. `app.js` reads `document.baseURI` for its mount point, so it would still work if mounted under a prefix with a different `<base>`.
+- The directory is served as-is, so `drafts/` is publicly reachable (it's just not linked).
 
-`app.js`'s router doesn't hardcode either mount point — at load it reads `document.baseURI` (which reflects the injected `<base>` tag on isaa.ch, or the page's own natural URL on GitHub Pages) to work out where it's mounted, then builds all internal links and parses `location.pathname` relative to that. This is why the same unmodified files work correctly served from `/pmp/` in one place and `/patterns/` in the other.
-
-**Why the Worker exists at all, and why it's scoped so narrowly**: `isaa.ch`'s apex is *also* a short.io "branded links" custom domain — 16 personal short links, including the bare root (`isaa.ch/` → his Twitter profile, ~7.7k clicks) and `/cv` (résumé). The Worker's route is deliberately just `isaa.ch/patterns*`, and only the two apex `A` records were switched from "DNS only" to "Proxied" to make the route reachable at all — everything else on the zone (the short.io links, `home.isaa.ch` → Home Assistant, `mail.isaa.ch`, the Bluesky `_atproto` TXT record) is untouched and must stay that way. Full history of this zone — DNS migration off Media Temple, the short.io link inventory, the Worker cutover — lives in the separate `domain-audit` project's tracker (`~/Documents/projects/domain-audit/tracker.md`, findings #17–#42), not here; that's the place to check before touching `isaa.ch` DNS/routing again, and to update if you do.
-
-To redeploy the Worker after editing `cloudflare-worker.js`: `cd pmp && npx wrangler deploy` (needs `wrangler login` once, which opens a Cloudflare OAuth flow).
+History: this was `pmp/` inside `hepwori/hepwori.github.io` (history preserved via `git subtree split`), served at `hepwori.github.io/pmp/` and, via a Cloudflare Worker, at `isaa.ch/patterns/`. See `~/Documents/projects/domain-audit/tracker.md` for the zone's history and the cutover.
 
 ## Pattern file format
 
