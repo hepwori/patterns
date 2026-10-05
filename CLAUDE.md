@@ -26,6 +26,12 @@ Served by Cloudflare Pages (project `patterns`, git-connected to `main`, no buil
 
 History: this was `pmp/` inside `hepwori/hepwori.github.io` (history preserved via `git subtree split`), served at `hepwori.github.io/pmp/` and, via a Cloudflare Worker, at `isaa.ch/patterns/`. See `~/Documents/projects/domain-audit/tracker.md` for the zone's history and the cutover.
 
+## Status / next steps
+
+- Live at `patterns.isaa.ch`. The old URLs still work for now: `isaa.ch/patterns/*` (Worker `isaa-ch-patterns`, which proxies to the old copy at `hepwori.github.io/pmp/` in the `hepwori.github.io` repo). **That old copy is frozen, so edit only this repo.**
+- At the `isaa.ch` homepage cutover (see `~/Documents/projects/isaa.ch/CLAUDE.md`): the `/patterns*` Worker route and Worker are deleted, `isaa.ch/patterns/*` becomes a 301 to here (via the homepage repo's `_redirects`), and `hepwori.github.io/pmp/` becomes a redirect stub.
+- Not done: nothing in this repo needs changing for that.
+
 ## Pattern file format
 
 ```
