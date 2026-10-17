@@ -1,0 +1,22 @@
+---
+layout: base.njk
+---
+{%- set p = site.bySlug[page.fileSlug] %}
+<header class="pattern-header">
+  <span class="pattern-breadcrumb">{{ p.category.title }}</span>
+  <h1>{{ title }}</h1>
+  {%- if also_known_as %}
+  <p class="pattern-aka"><strong>Also known as:</strong> {{ also_known_as }}</p>
+  {%- endif %}
+</header>
+{%- set parts = content | splitRelated %}
+<div class="prose">{{ parts[0] | safe }}</div>
+{{ parts[1] | safe }}
+{%- set prev = site.flat[p.n - 1] if p.n > 0 else null %}
+{%- set next = site.flat[p.n + 1] %}
+{%- if prev or next %}
+<nav class="pattern-pagination">
+  {%- if prev %}<a href="/{{ prev.slug }}/" class="pagination-prev">← {{ prev.title }}</a>{% else %}<span></span>{% endif %}
+  {%- if next %}<a href="/{{ next.slug }}/" class="pagination-next">{{ next.title }} →</a>{% endif %}
+</nav>
+{%- endif %}

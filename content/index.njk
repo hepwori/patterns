@@ -1,0 +1,54 @@
+---
+layout: base.njk
+permalink: /
+---
+<div class="landing-header">
+  <h1 class="landing-title">{{ site.title }}</h1>
+  <p class="landing-byline">{{ site.author }}</p>
+</div>
+<p class="landing-description">{{ site.description }}</p>
+<nav class="toc">
+  {%- if site.pages.length %}
+  <div class="toc-block">
+    <h2 class="toc-section-heading">Background</h2>
+    <div class="toc-featured-grid">
+      {%- for pg in site.pages %}
+      <a href="/{{ pg.slug }}/" class="toc-featured-pattern">
+        <span class="toc-featured-title">{{ pg.title }}</span>
+        <span class="toc-featured-summary">{{ pg.summary }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endif %}
+  {%- if site.featured.length %}
+  <div class="toc-block">
+    <h2 class="toc-section-heading">Featured Patterns</h2>
+    <div class="toc-featured-grid">
+      {%- for slug in site.featured %}
+      {%- set p = site.bySlug[slug] %}
+      <a href="/{{ slug }}/" class="toc-featured-pattern">
+        <span class="toc-featured-title">{{ p.title }}</span>
+        <span class="toc-featured-summary">{{ p.summary }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endif %}
+  <div class="toc-block">
+    <h2 class="toc-section-heading">All Patterns</h2>
+    {%- for cat in site.categories %}
+    <div class="toc-category-group">
+      <h3 class="toc-category-subhead">{{ cat.title }}</h3>
+      <div class="toc-featured-grid">
+        {%- for p in cat.patterns %}
+        <a href="/{{ p.slug }}/" class="toc-featured-pattern">
+          <span class="toc-featured-title">{{ p.title }}</span>
+          <span class="toc-featured-summary">{{ p.summary }}</span>
+        </a>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+</nav>
