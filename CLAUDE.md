@@ -8,29 +8,31 @@ A pattern language for product management in complex organizations, authored by 
 
 ## How the site works
 
-- `content/index.json` — site index; lists all published patterns by category with slug, title, and summary. **Adding a pattern here is what makes it appear in the nav and ToC.**
-- `content/patterns/<slug>.md` — one file per pattern, with YAML frontmatter
-- `content/introduction.md` and `content/about.md` — static pages
-- `drafts/` — work-in-progress patterns and scratchpad notes (not served by the site)
-- `app.js` — single-page app; routes via the History API (`pushState`/`popstate`), fetches and renders markdown
-- `style.css` — all styles
-- `index.html` — shell; sidebar title is hardcoded short form
+Static site built with **Eleventy 3** (`npm run build` → `_site/`). Every page is pre-rendered HTML; no client-side rendering. (It used to be a client-side markdown SPA; that was replaced because JS-only content is fragile for SEO and for agents/crawlers that don't run JS.)
+
+- `content/index.json`: site index; lists all published patterns by category with slug, title, and summary, plus the featured list and the two background pages. **A pattern is published only if it's listed here**; this also drives the nav, contents page and prev/next order. Files in `content/patterns/` that aren't listed are drafts and produce no page.
+- `content/patterns/<slug>.md`: one file per pattern, with YAML frontmatter. `content/introduction.md`, `content/about.md`: static pages.
+- `eleventy.config.js`: the `[[Wikilink]]` markdown-it plugin (warns at build time on titles that don't resolve), and a preprocessor that turns each pattern's `## Related Patterns` bullets into the card grid.
+- `data/site.js`: loads `content/index.json` for templates. `layouts/`: `base.njk` (head, sidebar, meta/OG/canonical), `pattern.njk`, `page.njk`. `content/index.njk` is the contents page, `content/404.njk`, `content/sitemap.njk`.
+- `static/`: copied to the site root as-is (`style.css`, `nav.js`, `robots.txt`, favicons). `nav.js` is progressive enhancement only (sidebar search filter, mobile menu toggle, remembers sidebar scroll); the site works without it.
+- `drafts/`: work-in-progress notes, never built or served.
+- Local: `npm install`, then `npm start` (live-reloading server) or `npm run build`. Node version is pinned in `.node-version`; Eleventy is pinned exactly in `package.json`.
 
 ## Deployment & serving
 
-Served by Cloudflare Pages (project `patterns`, git-connected to `main`, no build step, output dir = repo root) at **`patterns.isaa.ch`**. Push to `main` and it redeploys in ~30s.
+Cloudflare Pages (project `patterns`, git-connected to `main`) at **`patterns.isaa.ch`**. Build command `npm run build`, output dir `_site` (set in the Pages dashboard, since Pages build commands aren't configurable from the repo). Push to `main` and it rebuilds and deploys (~1 min). A failed build leaves the previous deploy live. Other branches get preview URLs, e.g. `https://<branch>.patterns-7ov.pages.dev`.
 
-- There's no `404.html`, so Pages runs in SPA mode: any path that isn't a real file gets `index.html`. That's what makes deep links like `/alignment-mirage` work.
-- `index.html` has `<base href="/">` so relative asset/content URLs resolve correctly from deep paths. `app.js` reads `document.baseURI` for its mount point, so it would still work if mounted under a prefix with a different `<base>`.
-- The directory is served as-is, so `drafts/` is publicly reachable (it's just not linked).
+- URLs are directory-style (`/alignment-mirage/`); Pages 308-redirects `/alignment-mirage` to the slash form, so old links keep working.
+- `404.html` is generated; there's no SPA fallback any more.
+- The `phase-transition-debt` pattern file exists in `content/patterns/` but is intentionally unpublished (not in `index.json`), and nothing links to it. There's also a *different* copy in `drafts/`; reconcile before publishing.
 
 History: this was `pmp/` inside `hepwori/hepwori.github.io` (history preserved via `git subtree split`), served at `hepwori.github.io/pmp/` and, via a Cloudflare Worker, at `isaa.ch/patterns/`. See `~/Documents/projects/domain-audit/tracker.md` for the zone's history and the cutover.
 
 ## Status / next steps
 
-- Live at `patterns.isaa.ch`. The old URLs still work for now: `isaa.ch/patterns/*` (Worker `isaa-ch-patterns`, which proxies to the old copy at `hepwori.github.io/pmp/` in the `hepwori.github.io` repo). **That old copy is frozen, so edit only this repo.**
+- Live at `patterns.isaa.ch`. The old URLs still work for now: `isaa.ch/patterns/*` (Worker `isaa-ch-patterns`, which proxies to the old frozen copy at `hepwori.github.io/pmp/` in the `hepwori.github.io` repo). **That old copy is frozen, so edit only this repo.**
 - At the `isaa.ch` homepage cutover (see `~/Documents/projects/isaa.ch/CLAUDE.md`): the `/patterns*` Worker route and Worker are deleted, `isaa.ch/patterns/*` becomes a 301 to here (via the homepage repo's `_redirects`), and `hepwori.github.io/pmp/` becomes a redirect stub.
-- Not done: nothing in this repo needs changing for that.
+- Possible follow-ups: raw `.md` alongside each page for agents; JSON-LD; a per-pattern OG image.
 
 ## Pattern file format
 
@@ -55,13 +57,14 @@ Sections are consistent across patterns. "Degeneration" sub-sections appear unde
 
 ## Wikilinks
 
-Cross-references use `[[Pattern Title]]` syntax — processed by `app.js` into links. Use the exact pattern title as it appears in the frontmatter.
+Cross-references use `[[Pattern Title]]` syntax, turned into links at build time (case-insensitive match on the title in `index.json`). The build warns about any that don't resolve; fix them.
 
 ## Adding a new pattern
 
 1. Create `content/patterns/<slug>.md`
-2. Add entry to `content/index.json` under the appropriate category
+2. Add entry to `content/index.json` under the appropriate category (this is what publishes it)
 3. Update Related Patterns in other patterns that should reference the new one
+4. `npm run build` and check for `[patterns]` warnings
 
 ## Editorial voice
 
