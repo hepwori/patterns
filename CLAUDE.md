@@ -30,8 +30,8 @@ History: this was `pmp/` inside `hepwori/hepwori.github.io` (history preserved v
 
 ## Status / next steps
 
-- Live at `patterns.isaa.ch`. The old URLs still work for now: `isaa.ch/patterns/*` (Worker `isaa-ch-patterns`, which proxies to the old frozen copy at `hepwori.github.io/pmp/` in the `hepwori.github.io` repo). **That old copy is frozen, so edit only this repo.**
-- At the `isaa.ch` homepage cutover (see `~/Documents/projects/isaa.ch/CLAUDE.md`): the `/patterns*` Worker route and Worker are deleted, `isaa.ch/patterns/*` becomes a 301 to here (via the homepage repo's `_redirects`), and `hepwori.github.io/pmp/` becomes a redirect stub.
+- Live at `patterns.isaa.ch`. **`isaa.ch/patterns/*` now 301s here** via a Cloudflare Redirect Rule on the `isaa.ch` zone ("patterns to patterns.isaa.ch": wildcard `https://isaa.ch/patterns*` → `https://patterns.isaa.ch${1}`); redirect rules run before Workers routes, so the old `isaa-ch-patterns` Worker route (`isaa.ch/patterns*`) is now dead code. `hepwori.github.io/pmp/` is a redirect stub. There is no longer a second copy of the site anywhere.
+- At the `isaa.ch` homepage cutover (see `~/Documents/projects/isaa.ch/CLAUDE.md`): delete the dead `/patterns*` Workers route and the `isaa-ch-patterns` Worker. The homepage repo's `_redirects` then also carries a `/patterns/*` 301, so the dashboard redirect rule becomes redundant and can be deleted. (The old Worker's source is in the `hepwori.github.io` git history, at `pmp/cloudflare-worker.js`, and in this repo's history.)
 - Possible follow-ups: raw `.md` alongside each page for agents; JSON-LD; a per-pattern OG image.
 
 ## Pattern file format
