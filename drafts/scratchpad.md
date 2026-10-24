@@ -227,3 +227,77 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 **Name candidates:** Causal Flattening (preferred), Condition Blindness, Causal Mirage
 
 **Related patterns (likely):** Phase Transition Debt (Known Use anchor), Conservation of Organizational Cost, Alignment Mirage
+
+---
+
+## Thread: Twitter 2010–2015 (hypergrowth and business dysfunction)
+
+**Status:** Mine in progress — collecting stories before extracting. Work one pattern at a time, but log everything here first so nothing is lost. The candidates below likely chain: hypergrowth hides causality → growth stalls → consumer org blamed → leader churn → strategy resets → more apparent chaos.
+
+**Context:** Isaac was at Twitter ~2010–2015 (joined at ~100 people; ~3,500 by the MoPub acquisition). Other Twitter stories already logged above: Gnip/MoPub integration and decision closure (see *Integration Preservation Insight*, *Decision Closure*).
+
+### Candidate: Terrain Mismatch (working title)
+
+**Status:** Early — core insight and consequences sketched, not yet drafted. Next up for `drafts/terrain-mismatch.md`.
+
+**Name alternatives:** Yardstick Mismatch, Settled Ground, Converged and Divergent Domains. "Terrain Mismatch" preferred: the failure is the evaluation mismatch, not the terrain.
+
+**Source story (2014 Twitter, revenue vs consumer product engineering):**
+- *Revenue* was known as high-functioning: predictable, focused, coherent roadmaps, reliable delivery. In retrospect it operated in a **converged** space: established domain (digital advertising), clear north star, common currency (dollars), directly measurable ROI, identifiable customers (large advertisers) one could talk to directly.
+- *Consumer* was known as a shitshow: meandering, incoherent, unpredictable, "almost brownian." In retrospect it was on a **divergent** journey ("nobody has ever built a twitter before"): unclear which metrics to optimize or how they'd play out long-term; no single "customer" (research meant broad ethnography across very different personas, e.g. Japanese vs US usage); ROI of engineering effectively incalculable.
+- *Attribution:* credited to leadership. Head of revenue product was seen as running a tight ship; head of consumer product looked bad by comparison. Isaac: some of that was probably real, but terrain explains far more.
+- *Churn:* consumer product had a revolving door of heads of product (joke: the Spinal Tap drummer); ~6 in the ~5 years Isaac was there. Each brought a different theory of what consumer was for.
+
+**Second instance (Google, present day):** Cloud has a revenue-shaped org; product security is consumer-shaped. Security outcomes are near-impossible to dollarize, investments are fungible, metrics are unclear and suffer from [[Absence Accounting]]. (Publishable version should be anonymized/kept light.)
+
+**Core insight:** Orgs differ in how much of their problem space is *settled*: is there a common currency, a nameable customer, a known causal chain from work to outcome? Where there is, planning converges and "high-functioning" is an honest label. Where there isn't, the same org looks chaotic because the work is exploration, and exploration looks like brownian motion from outside. The org gets judged by one yardstick, so terrain is misread as management quality (org-scale attribution error).
+
+**Candidate axes (spectrum, not binary):** currency (is there one?), customer (nameable?), causality (does work → outcome measurably?), horizon (how long until you know?). Possibly convergence is something exploration *produces* (revenue was once divergent too) → link to phase-transition thinking.
+
+**Consequences / Degenerations:**
+- **Reinforcing loop (likely the engine):** divergent terrain → looks chaotic → blamed on leader → leader replaced → new thesis, re-plan, reset → looks more chaotic → repeat. Terrain sets the initial condition; misattribution compounds it. Churn is both effect and cause, so terrain and leadership can't be cleanly separated (state this in Forces).
+- **Adverse selection:** ambitious people route to convergent orgs; divergent orgs, which need the best judgment because they have no metric to lean on, get the leftovers.
+- **Borrowed yardstick:** divergent org is pressured to produce roadmaps and ROI models that are theater → [[Fluency Capture]] / [[Perverse Correlation]] as a *degeneration*, not a cause.
+- **Convergent org's blind spot:** never learns whether tight ship is skill or terrain; exports its playbook into places it doesn't fit.
+- **Unfalsifiable leader-fit story:** "still hasn't found the right leader." The swap counterfactual (revenue leader in consumer) is almost never run, which is why the misattribution survives.
+
+**Navigation strategies (rough):**
+- Name the terrain explicitly *before* the comparison happens (planning time, not post-hoc defense).
+- Agree on divergent-appropriate evidence: learning rate, quality of bets abandoned, time-to-kill, rather than delivery predictability.
+- For the leader above both: compare each org to its own past and to peers in the same regime.
+
+**Overlap to resolve:** *Altitude Distortion* source story 1 (Google Security: clear-domain reporting expectations applied to a complex-domain problem) is adjacent. Probably distinct (that one is about information flow, this one about evaluation), but check at drafting time. Also Cynefin framing: converged ≈ clear/complicated, divergent ≈ complex. Also *Phase Transition Debt* (convergence as something exploration produces).
+
+**Open questions:**
+- Did anyone ever cross over between the two orgs (at Twitter, or Cloud ↔ Security at Google)? A real swap datapoint beats speculation.
+- Leaders' reading of the comparison: how did consumer product leadership handle it?
+- Spectrum vs regime flip?
+- Possible sibling pattern about leader-as-scapegoat / revolving-door dynamics; current guess is it's a Degeneration section here, not standalone.
+
+**Related patterns:** Absence Accounting, Reward Loop Asymmetry, Perverse Correlation, Fluency Capture, Altitude Distortion (candidate), Phase Transition Debt (candidate)
+
+### Candidate: Unexamined Tailwind (working title)
+
+**Status:** Early — one story, mechanism sketched.
+
+**Name alternatives:** Unexplained Success, Tailwind Blindness. "Unexamined Tailwind" preferred: implies the driver was external or incidental and mistaken for skill.
+
+**Source story (early 2014 Twitter):** User growth was slowing. Isaac sat on a senior "growth task force" chaired by the COO, meeting a couple of times a week. First finding, after a few meetings: nobody really knew what had driven growth in the first place. Twitter had grown gangbusters and nobody had stopped to ask why; only when the curve flattened did the org start to reflect.
+
+**Core insight:** Success suppresses causal inquiry. Nobody audits a rising curve (audits cost attention, no felt need), so the causal model never gets built. Adversity then demands the model precisely when evidence is worst: no instrumentation was put in place for the question, the people who'd remember have churned, counterfactuals are gone, and "what drove growth" becomes archaeology. Survivorship bias applied to your own history.
+
+**What makes it a pattern, not a platitude:** timing asymmetry. The inquiry is cheapest when it feels least necessary.
+
+**Possible Degenerations:** post-hoc narrative hardens into strategy; competing confident theories held by different execs, none tested; return to tailwind-as-default if growth ticks back up.
+
+**Open questions (ask Isaac):**
+- What did the task force conclude? Real drivers found, or plausible stories?
+- Did different execs already hold confident, competing explanations?
+- Was anything instrumented afterward, or did the org relax when growth recovered?
+
+**Related patterns:** Absence Accounting (an unexplained tailwind is an invisible ledger entry), Reward Loop Asymmetry, Conservation of Organizational Cost (cost of understanding deferred, not eliminated), Counterfactual Blindness (cluster above)
+
+### Other Twitter 2010–2015 material to mine
+
+- Gnip/MoPub integration and decision closure: already logged above.
+- More stories to come from Isaac (hypergrowth, business dysfunction).
