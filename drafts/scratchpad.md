@@ -238,7 +238,7 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 
 ### Candidate: Terrain Mismatch (working title)
 
-**Status:** Early — core insight and consequences sketched, not yet drafted. Next up for `drafts/terrain-mismatch.md`.
+**Status:** Early — core insight and consequences sketched, not yet drafted. Isaac is not sold on the name or possibly the shape (see discussion: may be two patterns, or the pattern may be the attribution error rather than the terrain).
 
 **Name alternatives:** Yardstick Mismatch, Settled Ground, Converged and Divergent Domains. "Terrain Mismatch" preferred: the failure is the evaluation mismatch, not the terrain.
 
@@ -276,11 +276,11 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 
 **Related patterns:** Absence Accounting, Reward Loop Asymmetry, Perverse Correlation, Fluency Capture, Altitude Distortion (candidate), Phase Transition Debt (candidate)
 
-### Candidate: Unexamined Tailwind (working title)
+### Candidate: Tailwind Blindness
 
-**Status:** Early — one story, mechanism sketched.
+**Status:** Early — name locked, one story, mechanism sketched.
 
-**Name alternatives:** Unexplained Success, Tailwind Blindness. "Unexamined Tailwind" preferred: implies the driver was external or incidental and mistaken for skill.
+**Name:** Tailwind Blindness (settled). "Tailwind" implies the driver was external or incidental and mistaken for skill. Rejected: Unexamined Tailwind, Unexplained Success.
 
 **Source story (early 2014 Twitter):** User growth was slowing. Isaac sat on a senior "growth task force" chaired by the COO, meeting a couple of times a week. First finding, after a few meetings: nobody really knew what had driven growth in the first place. Twitter had grown gangbusters and nobody had stopped to ask why; only when the curve flattened did the org start to reflect.
 
