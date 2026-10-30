@@ -78,7 +78,7 @@ The difference was credited to leadership: the head of revenue product ran a tig
 
 **A cloud business and an internal platform organization.** A product leader moved from a business that measured everything in revenue to an organization that delivered technology to the rest of the company and had no revenue metric. On arrival, she read the new organization as a mess and the product managers as underperformers, because they were not behaving like the top performers in her previous organization.
 
-Two months in, she revised her view. In the cloud business, she said, "we could just look at the magic quadrant and implement the features checklist known in the market. Over here it is so complicated." The market had already done the exploration there. In the platform organization, no one had produced the key.
+Two months in, she revised her view. In the cloud business, she said, "we could just look at the magic quadrant and implement the features checklist known in the market. Over here it is so complex." The market had already done the exploration there. In the platform organization, no one had produced the key.
 
 ## Related Patterns
 
