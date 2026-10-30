@@ -236,11 +236,13 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 
 **Context:** Isaac was at Twitter ~2010–2015 (joined at ~100 people; ~3,500 by the MoPub acquisition). Other Twitter stories already logged above: Gnip/MoPub integration and decision closure (see *Integration Preservation Insight*, *Decision Closure*).
 
-### Candidate: Terrain Mismatch (working title)
+### Candidate: Terrain Credit
 
-**Status:** Early — core insight and consequences sketched, not yet drafted. Isaac is not sold on the name or possibly the shape (see discussion: may be two patterns, or the pattern may be the attribution error rather than the terrain).
+**Status:** Early — core insight and consequences sketched, not yet drafted. Renamed from "Terrain Mismatch" after discussion: the pattern is the attribution error, not the terrain. Next up for `drafts/terrain-credit.md`.
 
-**Name alternatives:** Yardstick Mismatch, Settled Ground, Converged and Divergent Domains. "Terrain Mismatch" preferred: the failure is the evaluation mismatch, not the terrain.
+**Name:** Terrain Credit (settled). Leaders get credit or blame for ground they didn't choose; names the attribution error, which is the actionable part. Rejected: Terrain Mismatch (named the least interesting part, and put the mismatch between org and terrain when it's between the evaluator's yardstick and the terrain), Borrowed Yardstick, Settled Ground Premium, Yardstick Mismatch.
+
+**Planned structure:** Context = converged vs divergent terrain (the descriptive claim, cynefin-adjacent, not novel alone). Problem = the attribution error. Consequences = the churn/reset reinforcing loop, adverse selection, borrowed yardstick as degeneration.
 
 **Source story (2014 Twitter, revenue vs consumer product engineering):**
 - *Revenue* was known as high-functioning: predictable, focused, coherent roadmaps, reliable delivery. In retrospect it operated in a **converged** space: established domain (digital advertising), clear north star, common currency (dollars), directly measurable ROI, identifiable customers (large advertisers) one could talk to directly.
