@@ -268,10 +268,16 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 - Agree on divergent-appropriate evidence: learning rate, quality of bets abandoned, time-to-kill, rather than delivery predictability.
 - For the leader above both: compare each org to its own past and to peers in the same regime.
 
+**Swap datapoint (Google, Oct 2026):** a colleague moved from Cloud (revenue-shaped, measured directly in dollars) to Core (delivers tech to the rest of Google; not dollarized). Her words, in week one-ish: "in cloud we could just look at the magic quadrant and implement features checklists known in the market. over here it is SO COMPLICATED." This is the swap counterfactual we lacked: same person, different terrain. She perceives the terrain directly (not as bad leadership), which is the healthy reading; the risk is that she, or those judging her, shift to the leadership reading.
+- **New force: imported convergence.** The magic quadrant is an externally produced answer key: analysts and competitors already paid for the exploration, so the org reads settled answers off a checklist. Convergence is not only an internal property of the domain; it's also about whether someone legible has already paid the exploration cost. Same for revenue at Twitter (ad industry's pre-existing buying metrics and formats). Where no one has produced the answer key, the org must produce it itself, and that looks like mess.
+- **Individual-scale terrain credit:** her competence in Cloud was partly terrain credit too. Entering divergent ground she'll be tempted to import checklist-thinking (fake roadmaps), conclude the org is dysfunctional, or conclude she's slipped.
+- Navigation implication: name the regime to people at the moment they cross between orgs.
+- Publishing note: anonymize heavily ("a colleague moving between two large orgs"); no Google specifics.
+
 **Overlap to resolve:** *Altitude Distortion* source story 1 (Google Security: clear-domain reporting expectations applied to a complex-domain problem) is adjacent. Probably distinct (that one is about information flow, this one about evaluation), but check at drafting time. Also Cynefin framing: converged ≈ clear/complicated, divergent ≈ complex. Also *Phase Transition Debt* (convergence as something exploration produces).
 
 **Open questions:**
-- Did anyone ever cross over between the two orgs (at Twitter, or Cloud ↔ Security at Google)? A real swap datapoint beats speculation.
+- Did anyone ever cross over between the two orgs at Twitter? (Google Cloud → Core swap datapoint now logged above; Twitter crossover still unknown.)
 - Leaders' reading of the comparison: how did consumer product leadership handle it?
 - Spectrum vs regime flip?
 - Possible sibling pattern about leader-as-scapegoat / revolving-door dynamics; current guess is it's a Degeneration section here, not standalone.
