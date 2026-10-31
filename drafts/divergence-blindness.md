@@ -63,12 +63,12 @@ the way a fish rarely knows about water. People who have worked in both tend to
 carry the model of one into the other. Evaluators lose track of the difference,
 practitioners lose track of it, and so do divergent organizations themselves.
 
-Without it, everything is judged as though it were convergent. The instruments
-are the role profile, the performance ladder, calibration, planning reviews, and
-leadership's sense of what a well-run team looks like. They are built from work
-that is easy to see and compare, which is mostly convergent work. Both kinds of
-organization are usually evaluated together, by the same people, using the same
-instruments.
+Without it, work tends to be judged as though it were all convergent. The
+instruments of judgment are the role profile, the performance ladder,
+calibration, planning reviews, and leadership's sense of what a well-run team
+looks like. They are built from work that is easy to see and compare, which is
+mostly convergent work. Both kinds of organization are usually evaluated
+together, by the same people, using the same instruments.
 
 The misjudgment appears at three scales:
 
