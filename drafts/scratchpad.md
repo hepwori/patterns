@@ -316,3 +316,23 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 
 - Gnip/MoPub integration and decision closure: already logged above.
 - More stories to come from Isaac (hypergrowth, business dysfunction).
+
+---
+
+## Candidate: Scaffolding Penalty (working title; alt: Independence Penalty)
+
+**Status:** Early — one story, mechanism sketched. Separate from Divergence Blindness: considered and kept out, because inhospitable teams are mostly a difference of degree, not kind (open question below).
+
+**Source story (Google, Oct 2026):** In some parts of the internal platform organization, product management as a function isn't well understood. The org doesn't know how to leverage PMs, individual engineers are skeptical, and some engineering leaders are actively hostile to what they see as PM "interference." Isaac calls these teams "inhospitable" to PMs. When mid-ranking PMs are assigned to them, they are partnered with very senior PMs who can fight the organizational antibodies. At calibration, the mid-ranking PM is dinged for not showing "independence."
+
+**Core insight:** The rubric treats independence as a trait of the person when it is a property of person plus conditions. The scaffolding the conditions required (the senior partner) is penalized in the person it supports. The scaffolding's own work (preventing antibody rejection) is preventive and invisible, so it gets no ledger entry: an Absence Accounting angle.
+
+**Family:** the environment's contribution to outcomes credited or blamed on people. Tailwind Blindness (time-varying external force), Divergence Blindness (kind of work), and this (organizational hospitality to the function). Hold before minting a fourth; check whether there is a parent pattern.
+
+**Open questions:**
+- Is inhospitable a difference of degree or of kind? (The PM there does a different job first: earning standing before doing product.)
+- What does calibration do for the senior partner?
+- Does "independence" appear in the ladder literally?
+- Are there instances outside PM (e.g. a new team lead assigned a senior mentor)?
+
+**Related patterns (likely):** Absence Accounting, Divergence Blindness, Tailwind Blindness (candidate), Dual Competence

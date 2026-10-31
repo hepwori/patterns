@@ -91,7 +91,9 @@ Stated systematically, the instruments fail in four ways:
   formed.
 - **They misread the traces.** Revised plans look like indecision. The lack of a
   single metric looks like a lack of focus. Open-ended research looks like a
-  lack of progress.
+  lack of progress. The absence of the standard artifacts (strategy, roadmap,
+  competitive analysis, segmentation) looks like a lack of rigor, when the
+  competitors and segments may not yet have been defined.
 - **They credit the wrong cause.** A convergent team's coherence is attributed
   to its people, when much of it comes from the kind of work, and sometimes from
   answers produced elsewhere.
@@ -143,10 +145,15 @@ work is and which of the four properties are missing.
 
 For practitioners:
 
-**Make the work legible on its own terms.** Keep a record of bets considered,
-chosen, and ended; decisions made and why; what was learned. This gives
-evaluators something to read, and it does for divergent work what a roadmap does
-for convergent work.
+**Make the work legible on its own terms.** Divergent work has its own
+equivalents of the standard artifacts: a strawman model of the landscape, kept
+explicitly provisional and revised in the open; relationships maintained and
+kept informed throughout the exploration; an understanding of the "physics of
+the space," meaning how it actually behaves; and the best available account of
+how the pieces fit together ("sensemaking"). Much of this lives in heads and
+relationships, so making it inspectable takes deliberate effort. Keep the model
+versioned, keep a record of bets considered, chosen, and ended, and be able to
+say what would change your mind. This gives evaluators something to read.
 
 **Agree the evidence early.** Settle with evaluators, at the start of a cycle,
 what good looks like for this work: rate of learning, quality of bets, time
@@ -169,6 +176,13 @@ For evaluators and organizations:
 **Describe excellence per kind.** A role profile can say what strong looks like
 in convergent work and in divergent work, and calibrate people within their kind
 first.
+
+**Look for the divergent equivalents.** The absence of standard artifacts is not
+evidence of good work, any more than it is evidence of poor work. Ask whether
+the practitioner can state a working model of the landscape and what would
+change it, who they keep informed, how the space behaves, and how the pieces fit
+together. These can be tested: does the model predict how a move will land, and
+does it get revised when it is wrong?
 
 **Adjust for degree where the scale is shared.** In diving, judges score
 execution and multiply by a published degree of difficulty. Calibration can do
@@ -235,11 +249,22 @@ alignment.
 A product leader who moved from the cloud business to the platform organization
 read the new organization, on arrival, as a mess, and its product managers as
 underperformers, because they were not behaving like the top performers in her
-previous organization. Two months in, she revised her view. In the cloud
-business, she said, "we could just look at the magic quadrant and implement the
-features checklist known in the market. Over here it is so complex." The market
-had already done the exploration there. In the platform organization, no one had
-produced the key.
+previous organization. On her cloud team, every product manager kept up-to-date
+copies of a standard set of artifacts: strategy, roadmap, PRD, competitive
+analysis, market segmentation, SWOT analysis. In the platform organization, none
+of her new team had them. At first she was aghast. She read the missing
+artifacts as missing rigor.
+
+Two months in, she revised her view. In the cloud business, she said, "we could
+just look at the magic quadrant and implement the features checklist known in
+the market. Over here it is so complex." The market had already done the
+exploration there. In the platform organization, no one had produced the key.
+
+The strongest product managers there had something else: a strawman conceptual
+model of the landscape, strong relationships they kept informed during the
+exploration, a nuanced understanding of the "physics of the space," and the best
+available sensemaking of how the pieces fit together. Most of it lived in heads
+and relationships, not documents.
 
 **Twitter, 2014.** Two large product engineering organizations were seen very
 differently. Revenue was known as high-functioning: predictable, focused,
