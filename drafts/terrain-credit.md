@@ -2,7 +2,7 @@
 title: Terrain Credit
 also_known_as: Borrowed Yardstick, The Convergence Premium
 category: systems-and-incentives
-summary: Leaders and practitioners are credited or blamed for the terrain they work in, because one yardstick is applied across settled and unsettled problem spaces.
+summary: Practitioners working in unsettled terrain are judged by instruments built for settled terrain, so the terrain is read as their performance.
 ---
 
 ## Context
@@ -23,69 +23,118 @@ argued with evidence, and delivery is predictable. Where they don't, the work is
 *divergent*: the organization is exploring, and no one, inside or outside, yet
 knows which metrics matter or how they play out.
 
-Convergence can be earned, and it can be imported. An industry analyst's
-quadrant, a competitor's feature set, or an established set of buying metrics
-all hand an organization the answers to questions someone else already paid to
-explore. The organization that reads from such a key looks coherent. The
-organization that has no key must produce one, and producing one looks, from the
-outside, like a mess.
+Convergence depends partly on who has already done the exploring. Some markets
+have been explored by others, and the results are shared. Analysts publish what
+a complete product looks like, competitors show which features customers pay
+for, and the industry settles on standard ways of measuring success. An
+organization in such a market can draw on all of this. Its task is to execute
+well against answers that already exist.
 
-Both kinds of organization are usually evaluated together, by the same people,
-using the same instruments.
+An organization where no one has been before has no such answers to draw on.
+Finding out what matters, for whom, and how to tell is part of the work. Spaces
+can move from one condition to the other as exploration succeeds: a market that
+was once divergent can become converged.
+
+A single company often contains both kinds of work, side by side. The people
+doing them have different jobs, even when their titles are the same.
 
 ## Problem
 
-Role profiles, performance ladders, calibration processes, and leadership
-reviews are written once and applied broadly. They are shaped by the work that
-is easiest to see and compare: prioritizing against a known metric, holding a
-roadmap, shipping on schedule. That work is mostly converged work.
+A product manager in a divergent space is doing the work that space requires and
+being judged by instruments built for the other kind.
 
-Applied across both regimes, the yardstick measures the terrain and reports it
-as performance. Converged organizations are credited with coherence they did not
-entirely produce. Divergent organizations are blamed for incoherence that is
-what exploration looks like.
+Those instruments are the role profile, the performance ladder, calibration,
+planning reviews, and leadership's sense of what a well-run team looks like.
+They are built from work that is easy to see and compare, which is mostly
+converged work: prioritizing against a known metric, holding a roadmap,
+delivering on schedule. Both kinds of organization are usually evaluated
+together, by the same people, using the same instruments.
 
-The error operates at every scale. A leader of a divergent organization looks
-weaker than a leader of a converged one. A product manager doing the work a
-divergent space requires (sensing, choosing bets, making sense of ambiguous
-signal, ending things well) reads as underperforming against a profile
-calibrated to converged work. A newcomer from a converged organization sees a
-mess and concludes the people are the problem.
+The practitioner feels the mismatch before anyone can name it. The skills the
+terrain rewards (sensing, choosing between bets, making sense of ambiguous
+signal, ending a direction early) leave little that an instrument can read, and
+the traces they do leave look like weakness.
 
-The counterfactual is rarely tested. Nobody swaps the leaders and watches what
-happens, so the attribution is never falsified.
+Stated systematically, the instruments fail in four ways:
+
+- **They cannot see the work.** Much of what matters in divergent space produces
+  no artifact: a bet declined, a direction ended early, an understanding that
+  formed.
+- **They misread the traces.** Revised plans look like indecision. The lack of a
+  single metric looks like a lack of focus. Open-ended research looks like a
+  lack of progress.
+- **They credit the wrong cause.** A converged team's coherence is attributed to
+  its people, when much of it comes from the terrain, and sometimes from answers
+  produced elsewhere.
+- **They place the cause in the person.** When divergent work looks poor,
+  evaluators look to the people. The terrain is rarely considered, and the swap
+  that would test it (the same people in the other terrain) is almost never run.
+
+The same errors apply to the leaders of whole organizations. The leader of a
+divergent organization looks weaker than the leader of a converged one, for the
+same reasons.
+
+**The practitioner's bind.** Someone judged this way has three options. They can
+conform: produce the artifacts the instruments reward, such as dated roadmaps,
+single success metrics, and ROI models, whether or not the terrain supports
+them. They can absorb: keep doing the work the terrain needs and accept the
+ratings and the slower progress. Or they can leave for a more settled
+organization, where the same effort is read as strength.
+
+Most also take on a further cost, which is explaining the terrain: translating
+the work for evaluators who cannot see it, and defending its legibility. This
+takes time away from the product and rarely appears in any evaluation.
 
 ## Forces
 
-- **Visible coherence, invisible cause:** a tidy roadmap is observable; the
-  reason it was possible is not.
-- **One yardstick for fairness:** shared ladders and calibration make evaluation
-  comparable and defensible, and they flatten differences in terrain in the
-  process.
+- **Instruments are shared for fairness:** common ladders and calibration make
+  evaluation comparable and defensible, and they flatten differences in terrain
+  in the process.
+- **Instruments are built from what is visible:** ladders are written from work
+  that can be observed and compared, which favors converged work.
+- **Evaluators learned in settled ground:** people who rise through visibly
+  successful organizations tend to carry their model of good work with them, and
+  they are often the ones doing the evaluating.
+- **Visible coherence, invisible cause:** a tidy roadmap can be seen; the reason
+  it was possible cannot.
 - **Attribution to people:** outcomes are explained by who was in charge more
   readily than by the conditions they worked in.
-- **Imported convergence:** because someone else paid for the exploration, the
-  dependence is easy to forget.
-- **The newcomer's first read:** outsiders see divergence at full contrast and
-  have not yet done the work that would explain it.
+- **Imported answers are easy to forget:** when someone else paid for the
+  exploration, the dependence drops out of view.
+- **The newcomer's first read:** outsiders see divergence at full contrast,
+  before they have done the work that would explain it.
 - **Real performance problems exist too:** divergent organizations also contain
-  weak leaders and weak practitioners, and terrain provides cover for them. The
-  pattern explains a systematic bias; it does not excuse any particular case.
+  weak leaders and weak practitioners, and terrain gives them cover. The pattern
+  explains a systematic bias, not any particular case.
 
 ## Navigation Strategies
 
 Name the terrain before the comparison is made. At planning time, before a
 review cycle, and when someone moves between organizations, say which regime the
-work is in and what the missing properties are.
+work is in and which of the four properties are missing.
 
-**Describe excellence per regime.** A role profile can state what strong looks
-like when the space is settled and what it looks like when it isn't, and
-calibrate people within their regime first.
+For practitioners:
 
-**Ask for divergent-appropriate evidence.** In an unsettled space, delivery
-predictability is weak evidence. Rate of learning, quality of bets chosen and
-abandoned, time taken to end a failing direction, and the soundness of decisions
-made under uncertainty are stronger.
+**Make the work legible on its own terms.** Keep a record of bets considered,
+chosen, and ended; decisions made and why; what was learned. This gives
+evaluators something to read, and it does for divergent work what a roadmap does
+for converged work.
+
+**Agree the evidence early.** Settle with evaluators, at the start of a cycle,
+what good looks like for this work: rate of learning, quality of bets, time
+taken to end a failing direction, soundness of decisions under uncertainty.
+
+**Be wary of theater.** Producing the artifacts of a settled space where the
+space isn't settled earns credit now at the cost of credibility later.
+
+**Find someone who has crossed.** A peer or sponsor who has worked in both
+regimes can translate in both directions.
+
+For evaluators and organizations:
+
+**Describe excellence per regime.** A role profile can say what strong looks
+like when the space is settled and when it isn't, and calibrate people within
+their regime first.
 
 **Compare each organization with its own past and with peers in the same
 regime**, not with the most legible organization nearby.
@@ -103,19 +152,18 @@ an answer key someone else produced, say so.
 
 ## Consequences
 
-- Credit and blame accumulate in the wrong places. Converged organizations learn
-  that their method is the reason they succeed and export it to places it
-  doesn't fit.
-- Divergent organizations are pressured to adopt the converged organization's
-  artifacts: roadmaps with dates, ROI models, single success metrics. They
-  comply with the appearance, which feeds [[Fluency Capture]] and
+- Practitioners in divergent organizations are rated against profiles their work
+  doesn't fit, which affects promotion and retention independent of their
+  contribution.
+- Some conform. The organization receives roadmaps and metrics that look like
+  those of a settled space and mean less, which feeds [[Fluency Capture]] and
   [[Perverse Correlation]].
 - Ambitious people route toward the organizations where they will be seen to
   succeed. The divergent organizations that most need strong judgment, because
   they have no metric to lean on, receive less of it.
-- Practitioners in divergent organizations are rated against a profile their
-  work doesn't fit, which affects promotion and retention independent of their
-  contribution.
+- Credit accumulates in the wrong places. Converged organizations learn that
+  their method is the reason they succeed and export it to places it doesn't
+  fit.
 
 ### Degeneration: The Revolving Door
 
@@ -130,6 +178,22 @@ terrain and leadership hard to separate and keeps the story "we still haven't
 found the right leader" alive.
 
 ## Known Uses
+
+**An internal platform organization and a cloud business.** In an organization
+that delivers technology to the rest of its company, product managers voice a
+common concern: they are graded against a role profile calibrated to converged
+work. In the sibling cloud business, a product manager moves a revenue metric.
+In the platform organization, the nearest equivalent is a notional measure of
+alignment.
+
+A product leader who moved from the cloud business to the platform organization
+read the new organization, on arrival, as a mess, and its product managers as
+underperformers, because they were not behaving like the top performers in her
+previous organization. Two months in, she revised her view. In the cloud
+business, she said, "we could just look at the magic quadrant and implement the
+features checklist known in the market. Over here it is so complex." The market
+had already done the exploration there. In the platform organization, no one had
+produced the key.
 
 **Twitter, 2014.** Two large product engineering organizations were seen very
 differently. Revenue was known as high-functioning: predictable, focused,
@@ -148,18 +212,6 @@ The difference was credited to leadership: the head of revenue product ran a
 tight ship, and the head of consumer product looked bad by comparison. Consumer
 product went through roughly six heads in five years, each with a different
 theory of what consumer was for.
-
-**A cloud business and an internal platform organization.** A product leader
-moved from a business that measured everything in revenue to an organization
-that delivered technology to the rest of the company and had no revenue metric.
-On arrival, she read the new organization as a mess and the product managers as
-underperformers, because they were not behaving like the top performers in her
-previous organization.
-
-Two months in, she revised her view. In the cloud business, she said, "we could
-just look at the magic quadrant and implement the features checklist known in
-the market. Over here it is so complex." The market had already done the
-exploration there. In the platform organization, no one had produced the key.
 
 ## Related Patterns
 
