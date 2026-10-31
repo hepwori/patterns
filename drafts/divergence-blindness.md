@@ -35,10 +35,10 @@ management. It comes with the territory: an organization that knows where it is
 going can be tidy, and one still finding out cannot.
 
 The distinction is one of kind, not degree. Work can also be harder for other
-reasons, such as a legacy codebase, a hostile market, or a thin team. Those are
-differences of degree, and an adjustment for difficulty can address them. Here
-the behaviors that succeed are different, and no adjustment on the same scale
-fixes that.
+reasons, such as a legacy codebase, a hostile market, or a thin team. In those
+cases the same behaviors lead to success; there is just more uphill. Here the
+behaviors that succeed are different, and more effort of the same sort doesn't
+close the gap.
 
 Convergence depends partly on who has already done the exploring. Some markets
 have been explored by others, and the results are shared. Analysts publish what
@@ -47,7 +47,7 @@ for, and the industry settles on standard ways of measuring success. An
 organization in such a market can draw on all of this. Its task is to execute
 well against answers that already exist.
 
-An organization where no one has been before has no such answers to draw on.
+An organization operating in uncharted territory has no such answers to draw on.
 Finding out what matters, for whom, and how to tell is part of the work. A space
 can move from one condition to the other as exploration succeeds: a market that
 was once divergent can become convergent.
