@@ -236,9 +236,9 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 
 **Context:** Isaac was at Twitter ~2010–2015 (joined at ~100 people; ~3,500 by the MoPub acquisition). Other Twitter stories already logged above: Gnip/MoPub integration and decision closure (see *Integration Preservation Insight*, *Decision Closure*).
 
-### Candidate: Terrain Credit
+### Candidate: Divergence Blindness (formerly Terrain Credit)
 
-**Status:** Early — core insight and consequences sketched, not yet drafted. Renamed from "Terrain Mismatch" after discussion: the pattern is the attribution error, not the terrain. Next up for `drafts/terrain-credit.md`.
+**Status:** First full draft in `drafts/divergence-blindness.md` (supersedes the notes below, which are kept as raw history). Name history: Terrain Mismatch → Terrain Credit → Terrain Blindness → Divergence Blindness. "Terrain" was dropped because it connotes degree (uphill, rough), and the pattern is about difference in kind: convergent and divergent work are different games with different winning behaviors. Plain difficulty ("hard mode") is a separate matter of degree that can be handled by a difficulty adjustment; it only partly helps here because it concedes the rubric. aka: Two Games, One Scorecard; Wrong Rubric. Core claim (Isaac): the kind of work is invisible from inside (fish and water), not merely forgotten.
 
 **Name:** Terrain Credit (settled). Leaders get credit or blame for ground they didn't choose; names the attribution error, which is the actionable part. Rejected: Terrain Mismatch (named the least interesting part, and put the mismatch between org and terrain when it's between the evaluator's yardstick and the terrain), Borrowed Yardstick, Settled Ground Premium, Yardstick Mismatch.
 
