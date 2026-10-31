@@ -161,8 +161,12 @@ This gives evaluators something to read.
 what good looks like for this work: rate of learning, quality of bets, time
 taken to end a failing direction, soundness of decisions under uncertainty.
 Where the outcome is alignment, favor evidence of behavior over evidence of
-artifacts: do teams working separately make compatible decisions without being
-told? Artifacts can look aligned when the understanding is not.
+artifacts. Signs of movement include teams using the same language and
+analogies, drawing the same inferences, keeping decisions high quality when they
+are federated to the edges of the organization, and telling executives a single
+story. Shared language and a single story are the easiest to produce without
+real understanding. Shared inferences and good decisions at the edge are the
+stronger tests.
 
 **Use "hard mode" with care.** Describing divergent work as hard mode, with
 everything uphill, can win additional credit, and it is worth doing. It also
