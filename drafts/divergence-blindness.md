@@ -150,14 +150,19 @@ equivalents of the standard artifacts: a strawman model of the landscape, kept
 explicitly provisional and revised in the open; relationships maintained and
 kept informed throughout the exploration; an understanding of the "physics of
 the space," meaning how it actually behaves; and the best available account of
-how the pieces fit together ("sensemaking"). Much of this lives in heads and
-relationships, so making it inspectable takes deliberate effort. Keep the model
-versioned, keep a record of bets considered, chosen, and ended, and be able to
-say what would change your mind. This gives evaluators something to read.
+how the pieces fit together ("sensemaking"). Some of this lives in heads and
+relationships; the rest is sketches and high-level diagrams, which build shared
+understanding rather than drive execution or decisions. Making it inspectable
+takes deliberate effort. Keep the model versioned, keep a record of bets
+considered, chosen, and ended, and be able to say what would change your mind.
+This gives evaluators something to read.
 
 **Agree the evidence early.** Settle with evaluators, at the start of a cycle,
 what good looks like for this work: rate of learning, quality of bets, time
 taken to end a failing direction, soundness of decisions under uncertainty.
+Where the outcome is alignment, favor evidence of behavior over evidence of
+artifacts: do teams working separately make compatible decisions without being
+told? Artifacts can look aligned when the understanding is not.
 
 **Use "hard mode" with care.** Describing divergent work as hard mode, with
 everything uphill, can win additional credit, and it is worth doing. It also
@@ -244,7 +249,9 @@ that delivers technology to the rest of its company, product managers voice a
 common concern: they are graded against a role profile calibrated to convergent
 work. In the sibling cloud business, a product manager moves a revenue metric.
 In the platform organization, the nearest equivalent is a notional measure of
-alignment.
+alignment, and there is no dashboard for it. A product manager whose primary
+outcome is organizational alignment is at a disadvantage next to a peer whose
+dashboard shows revenue or adoption.
 
 A product leader who moved from the cloud business to the platform organization
 read the new organization, on arrival, as a mess, and its product managers as
@@ -263,8 +270,10 @@ exploration there. In the platform organization, no one had produced the key.
 The strongest product managers there had something else: a strawman conceptual
 model of the landscape, strong relationships they kept informed during the
 exploration, a nuanced understanding of the "physics of the space," and the best
-available sensemaking of how the pieces fit together. Most of it lived in heads
-and relationships, not documents.
+available sensemaking of how the pieces fit together. Some of it lived in heads
+and relationships. The rest was sketches and high-level diagrams: artifacts of
+gradual sensemaking and organizational alignment, not of execution or
+decisions.
 
 **Twitter, 2014.** Two large product engineering organizations were seen very
 differently. Revenue was known as high-functioning: predictable, focused,
@@ -297,3 +306,6 @@ theory of what consumer was for.
   quickly rewarded, of which a single convergent rubric is one case
 - [[Dual Competence]] — practitioners need craft and organizational fluency, and
   which craft is valued depends on the kind of work
+- [[Alignment Mirage]] — when the outcome being moved is shared understanding,
+  it is also the easiest thing to fake: artifacts can look aligned while the
+  understanding diverges
