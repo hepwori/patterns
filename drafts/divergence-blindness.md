@@ -234,36 +234,20 @@ mode, with everything uphill, and won some additional credit that way, but only
 some. The framing asked for a handicap on a shared scale. It did not challenge
 the scale.
 
-**An internal platform organization and a cloud business.** In an organization
-that delivers technology to the rest of its company, product managers voice a
-common concern: they are graded against a role profile calibrated to convergent
-work. In the sibling cloud business, a product manager moves a revenue metric.
-In the platform organization, the nearest equivalent is a notional measure of
-alignment, and there is no dashboard for it. A product manager whose primary
-outcome is organizational alignment is at a disadvantage next to a peer whose
-dashboard shows revenue or adoption.
+**The crossover.** A product leader moves from a business where everything is
+measured in revenue to an organization with no such measure. On her old team,
+every product manager kept the standard artifacts: strategy, roadmap,
+competitive analysis, segmentation. On her new team, none do. She reads the gap
+as missing rigor, and the new organization as a mess.
 
-A product leader who moved from the cloud business to the platform organization
-read the new organization, on arrival, as a mess, and its product managers as
-underperformers, because they were not behaving like the top performers in her
-previous organization. On her cloud team, every product manager kept up-to-date
-copies of a standard set of artifacts: strategy, roadmap, PRD, competitive
-analysis, market segmentation, SWOT analysis. In the platform organization, none
-of her new team had them. At first she was aghast. She read the missing
-artifacts as missing rigor.
-
-Two months in, she revised her view. In the cloud business, she said, "we could
-just look at the magic quadrant and implement the features checklist known in
-the market. Over here it is so complex." The market had already done the
-exploration there. In the platform organization, no one had produced the key.
-
-The strongest product managers there had something else: a strawman conceptual
-model of the landscape, strong relationships they kept informed during the
-exploration, a nuanced understanding of the "physics of the space," and the best
-available sensemaking of how the pieces fit together. Some of it lived in heads
-and relationships. The rest was sketches and high-level diagrams: artifacts of
-gradual sensemaking and organizational alignment, not of execution or
-decisions.
+A few months in, she revises her view. In her old business the market had
+already done the exploring: she could work from a checklist of what customers
+were known to want. Here no one had produced the checklist. The product managers
+who do well hold something else: a strawman model of the landscape,
+relationships they keep informed, a feel for how the space behaves, and sketches
+that build shared understanding. Their outcome is alignment, which has no
+dashboard, and they are graded against a role profile calibrated to convergent
+work.
 
 **Twitter, 2014.** Two large product engineering organizations were seen very
 differently. Revenue was known as high-functioning: predictable, focused,
