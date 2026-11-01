@@ -227,12 +227,13 @@ haven't found the right leader" alive.
 
 ## Known Uses
 
-**Performance calibration.** A manager took a product manager working in a
-divergent area through calibration, where the product manager was compared with
-one in a convergent area. The manager described their report as playing on hard
-mode, with everything uphill, and won some additional credit that way, but only
-some. The framing asked for a handicap on a shared scale. It did not challenge
-the scale.
+**The calibration room.** Two product managers are compared in the same
+calibration. One works in a convergent area, with a dashboard and a roadmap that
+delivers on schedule. The other works in a divergent one, where nobody yet knows
+which measure matters. The second one's manager argues that their report is
+playing the same game on a harder setting, and wins some additional credit, but
+only some. The argument asks for a handicap on the shared scale, and never
+questions whether it is the right one.
 
 **The crossover.** A product leader moves from a business where everything is
 measured in revenue to an organization with no such measure. On her old team,
