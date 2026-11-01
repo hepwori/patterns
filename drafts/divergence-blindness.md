@@ -26,8 +26,8 @@ knows which metrics matter or how they play out.
 These are different kinds of work, and the behaviors that lead to success
 differ. Convergent work rewards prioritizing against a known measure, holding a
 roadmap, and delivering on schedule. Divergent work rewards sensing, choosing
-between bets, making sense of ambiguous signal, and ending a direction early. A
-person can be excellent at one and unremarkable at the other.
+between bets, making sense of ambiguous signal, and ending an experiment early.
+A given person can be excellent at one and unremarkable at the other.
 
 Exploration looks chaotic. Plans change, the measures of success are disputed,
 and the picture stays incoherent until late. This is not a sign of poor
