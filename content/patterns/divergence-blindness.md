@@ -2,7 +2,7 @@
 title: Divergence Blindness
 also_known_as: Two Games, One Scorecard; Wrong Rubric
 category: systems-and-incentives
-summary: Organizations fail to see that convergent and divergent work are different kinds of work, and judge people, leaders, and organizations by the convergent kind.
+summary: Judging divergent work by convergent standards, without seeing the difference.
 ---
 
 ## Context
