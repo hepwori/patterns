@@ -36,23 +36,24 @@ going can be tidy, whereas one still finding out cannot.
 
 The distinction is one of nature, not degree. Work can also vary in difficulty
 for other reasons, such as a legacy codebase, a hostile market, or a thin team.
-In those cases the same behaviors lead to success, and only the effort required
-differs. Here the behaviors that succeed are different, and more effort of the
-same sort doesn't close the gap.
+In those cases the same behaviors lead to success; there is just more or less
+of a grade to climb. Here the behaviors that succeed are different, and more
+effort of the same sort doesn't close the gap.
 
-Convergence depends partly on who has already done the exploring. Some markets
-have been explored by others, and the results are shared. Analysts publish what
-a complete product looks like, competitors show which features customers pay
-for, and the industry settles on standard ways of measuring success. An
-organization in such a market can draw on all of this. Its task is to execute
-well against answers that already exist.
+Convergence depends partly on who has already done the exploring. Some problem
+spaces have been explored by others, and the results are shared. Analysts
+publish what a complete product looks like, competitors show which features
+customers pay for, and the industry settles on standard ways of measuring
+success. An organization in such a problem space can build on all of this as a
+steady foundation. The effect is profound: its task becomes executing well
+against answers that already exist.
 
-An organization operating in uncharted territory has no such answers to draw on.
-Finding out what matters, for whom, and how to tell is part of the work. A space
-can move from one condition to the other as exploration succeeds: a market that
-was once divergent can become convergent.
+An organization operating in uncharted territory has no such answers to build
+on. Finding out what matters, for whom, and how to tell is a major part of the
+work. A space can move from one condition to the other as exploration succeeds:
+an area that was once divergent can become convergent.
 
-A single company often contains both kinds of work, side by side. The people
+A single large company will contain both kinds of work, side by side. The people
 doing them have different jobs, even when their titles are the same.
 
 ## Problem
@@ -63,14 +64,14 @@ the way a fish rarely knows about water. People who have worked in both tend to
 carry the model of one into the other. Evaluators lose track of the difference,
 practitioners lose track of it, and so do divergent organizations themselves.
 
-Without it, work tends to be judged as though it were all convergent. The
-instruments of judgment are the role profile, the performance ladder,
+In scaled enterprises, work tends to be judged as though it were all convergent.
+The instruments of judgment are the role profile, the performance ladder,
 calibration, planning reviews, and leadership's sense of what a well-run team
 looks like. They are built from work that is easy to see and compare, which is
 mostly convergent work. Both kinds of organization are usually evaluated
 together, by the same people, using the same instruments.
 
-The misjudgment appears at three scales:
+Misjudgment shows up at three scales:
 
 - **Organizations.** A divergent organization looks undisciplined next to a
   convergent one, and the convergent one is credited with a discipline that owes
@@ -80,20 +81,19 @@ The misjudgment appears at three scales:
 - **Individuals.** A product manager doing what divergent work requires is rated
   against a profile calibrated to convergent work.
 
-The practitioner feels the mismatch before anyone can name it. The skills the
-work rewards leave little that an instrument can read, and the traces they do
-leave look like weakness.
+Practitioners feel the mismatch before anyone names it. What they do well is
+hard for these instruments to see, and what the instruments do see often looks
+like weakness.
 
 Stated systematically, the instruments fail in four ways:
 
-- **They cannot see the work.** Much of what matters in divergent work produces
-  no artifact: a bet declined, a direction ended early, an understanding that
-  formed.
+- **They cannot see the work.** Much of what matters in divergent work leaves
+  little of an artifact trail: a bet declined, an experiment ended early, an
+  understanding that formed.
 - **They misread the traces.** Revised plans look like indecision. The lack of a
   single metric looks like a lack of focus. Open-ended research looks like a
   lack of progress. The absence of the standard artifacts (strategy, roadmap,
-  competitive analysis, segmentation) looks like a lack of rigor, when the
-  competitors and segments may not yet have been defined.
+  competitive analysis, segmentation) looks like a lack of rigor.
 - **They credit the wrong cause.** A convergent team's coherence is attributed
   to its people, when much of it comes from the kind of work, and sometimes from
   answers produced elsewhere.
@@ -117,9 +117,9 @@ away from the product and rarely appears in any evaluation.
 
 - **Invisible from inside:** each kind of work feels like simply what work is,
   so the difference goes unremarked until someone crosses between them.
-- **Instruments are shared for fairness:** common ladders and calibration make
-  evaluation comparable and defensible, and they flatten differences between
-  kinds of work in the process.
+- **Comparison needs a common scale:** ladders and calibration exist to make
+  people comparable across teams and evaluation defensible, but they flatten
+  differences between kinds of work in the process.
 - **Instruments are built from what is visible:** ladders are written from work
   that can be observed and compared, which favors convergent work.
 - **Evaluators learned in convergent work:** people who rise through visibly
@@ -129,10 +129,6 @@ away from the product and rarely appears in any evaluation.
   it was possible cannot.
 - **Attribution to people:** outcomes are explained by who was in charge more
   readily than by the conditions they worked in.
-- **Imported answers are easy to forget:** when someone else paid for the
-  exploration, the dependence drops out of view.
-- **The newcomer's first read:** outsiders see divergence at full contrast,
-  before they have done the work that would explain it.
 - **Real performance problems exist too:** divergent organizations also contain
   weak leaders and weak practitioners, and the difficulty of the work gives them
   cover. The pattern explains a systematic bias, not any particular case.
@@ -141,7 +137,9 @@ away from the product and rarely appears in any evaluation.
 
 Name the kind of work before the comparison is made. At planning time, before a
 review cycle, and when someone moves between organizations, say which kind the
-work is and which of the four properties are missing.
+work is and which of the four properties described in Context (a common
+currency, a nameable customer, a known causal chain, a short horizon) are
+missing.
 
 For practitioners:
 
@@ -159,7 +157,7 @@ This gives evaluators something to read.
 
 **Agree the evidence early.** Settle with evaluators, at the start of a cycle,
 what good looks like for this work: rate of learning, quality of bets, time
-taken to end a failing direction, soundness of decisions under uncertainty.
+taken to end an experiment, soundness of decisions under uncertainty.
 Where the outcome is alignment, favor evidence of behavior over evidence of
 artifacts. Signs of movement include teams using the same language and
 analogies, drawing the same inferences, keeping decisions high quality when they
@@ -167,12 +165,6 @@ are federated to the edges of the organization, and telling executives a single
 story. Shared language and a single story are the easiest to produce without
 real understanding. Shared inferences and good decisions at the edge are the
 stronger tests.
-
-**Use "hard mode" with care.** Describing divergent work as hard mode, with
-everything uphill, can win additional credit, and it is worth doing. It also
-concedes the scale: it asks for a handicap on the same scorecard rather than
-questioning whether it is the right one. The stronger case is that the game
-itself differs, and that success looks different in it.
 
 **Be wary of theater.** Producing the artifacts of convergent work where the
 work is divergent earns credit now at the cost of credibility later.
@@ -195,22 +187,16 @@ does it get revised when it is wrong?
 
 **Adjust for degree where the scale is shared.** In diving, judges score
 execution and multiply by a published degree of difficulty. Calibration can do
-the same where work differs in degree. The four properties make a usable rubric:
-count how many are missing. Adjustment is not enough where the kinds differ.
+the same where work differs in degree. The four properties from Context make a
+usable rubric: count how many are missing. Adjustment is not enough where the
+kinds differ.
 
 **Compare each organization with its own past and with peers of the same kind**,
 not with the most legible organization nearby.
 
-**Treat the newcomer's first read as information about the rubric.** Give a
-deliberate window of doing the work before conclusions harden. Newcomers who
-revise their view tend to do so after meeting the missing answer key firsthand.
-
 **Run the swap test in the imagination.** Before crediting or blaming a leader,
 ask whether their results would hold in the other kind of work. If no one has
 ever crossed over, treat the attribution as unproven.
-
-**Check where convergence came from.** If an organization's coherence rests on
-an answer key someone else produced, say so.
 
 ## Consequences
 
