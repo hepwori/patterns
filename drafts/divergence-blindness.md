@@ -32,13 +32,13 @@ A given person can be excellent at one and unremarkable at the other.
 Exploration looks chaotic. Plans change, the measures of success are disputed,
 and the picture stays incoherent until late. This is not a sign of poor
 management. It comes with the territory: an organization that knows where it is
-going can be tidy, and one still finding out cannot.
+going can be tidy, whereas one still finding out cannot.
 
-The distinction is one of kind, not degree. Work can also be harder for other
-reasons, such as a legacy codebase, a hostile market, or a thin team. In those
-cases the same behaviors lead to success; there is just more uphill. Here the
-behaviors that succeed are different, and more effort of the same sort doesn't
-close the gap.
+The distinction is one of nature, not degree. Work can also vary in difficulty
+for other reasons, such as a legacy codebase, a hostile market, or a thin team.
+In those cases the same behaviors lead to success, and only the effort required
+differs. Here the behaviors that succeed are different, and more effort of the
+same sort doesn't close the gap.
 
 Convergence depends partly on who has already done the exploring. Some markets
 have been explored by others, and the results are shared. Analysts publish what
