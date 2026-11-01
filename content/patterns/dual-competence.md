@@ -60,3 +60,4 @@ In this view, system fluency is not inherently political; it is the translation 
 - [[Reward Loop Asymmetry]] — how immediacy of feedback shapes skill acquisition.
 - [[Cultural Dialects]] — how each organization encodes its own "fluency language."
 - [[Fluency Capture]] — the organizational-scale consequence when individual fluency drift reaches critical mass.
+- [[Divergence Blindness]] — which craft counts as strong depends on the kind of work, and role profiles tend to assume the convergent kind

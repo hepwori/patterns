@@ -68,3 +68,4 @@ Design communication and planning processes that explicitly test for semantic co
 - [[Explanatory Power vs Precision]] — the trade-off between clarity and accuracy as ideas scale.
 - [[Vision Anchoring]] — using coherent narrative to align internal understanding with external storytelling.
 - [[Fluency Capture]] — when performative alignment becomes institutionalized, Alignment Mirages become structurally generated rather than incidental.
+- [[Divergence Blindness]] — where shared understanding is the outcome being moved, it is also the easiest to fake and the hardest to put on a dashboard

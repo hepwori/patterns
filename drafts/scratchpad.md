@@ -236,11 +236,17 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 
 **Context:** Isaac was at Twitter ~2010–2015 (joined at ~100 people; ~3,500 by the MoPub acquisition). Other Twitter stories already logged above: Gnip/MoPub integration and decision closure (see *Integration Preservation Insight*, *Decision Closure*).
 
-### Candidate: Terrain Mismatch (working title)
+### Candidate: Divergence Blindness (formerly Terrain Credit)
 
-**Status:** Early — core insight and consequences sketched, not yet drafted. Next up for `drafts/terrain-mismatch.md`.
+**Status:** Published → `content/patterns/divergence-blindness.md` (supersedes the notes below, which are kept as raw history). Name history: Terrain Mismatch → Terrain Credit → Terrain Blindness → Divergence Blindness. "Terrain" was dropped because it connotes degree (uphill, rough), and the pattern is about difference in kind: convergent and divergent work are different games with different winning behaviors. Plain difficulty ("hard mode") is a separate matter of degree that can be handled by a difficulty adjustment; it only partly helps here because it concedes the rubric. aka: Two Games, One Scorecard; Wrong Rubric. Core claim (Isaac): the kind of work is invisible from inside (fish and water), not merely forgotten.
 
-**Name alternatives:** Yardstick Mismatch, Settled Ground, Converged and Divergent Domains. "Terrain Mismatch" preferred: the failure is the evaluation mismatch, not the terrain.
+**Name:** Terrain Credit (settled). Leaders get credit or blame for ground they didn't choose; names the attribution error, which is the actionable part. Rejected: Terrain Mismatch (named the least interesting part, and put the mismatch between org and terrain when it's between the evaluator's yardstick and the terrain), Borrowed Yardstick, Settled Ground Premium, Yardstick Mismatch.
+
+**Planned structure:** Context = converged vs divergent terrain (the descriptive claim, cynefin-adjacent, not novel alone). Problem = the attribution error. Consequences = the churn/reset reinforcing loop, adverse selection, borrowed yardstick as degeneration.
+
+**Open framing decision (Isaac raised, Oct 2026):** since this is a PM pattern language, should the PM role-profile/calibration mismatch be the core? Mechanism: PMs in divergent orgs (e.g. Core) are graded against a role profile calibrated to converged work; in Cloud you move a revenue metric, in Core a notional "alignment" metric. Leading recommendation: make the single company-wide role profile/ladder applied across heterogeneous terrain the entry point of Problem (it's where PM readers feel it, and it's the concrete mechanism), with org-level attribution (Twitter) as the same dynamic one scale up, and the churn loop as its org-level consequence. Keep the name; "credit" works at both scales. Known Uses: Twitter (org scale), Cloud→Core (individual scale).
+
+**Possible separate candidate (not yet decided):** in divergent orgs with no usable product metric, PM work shifts from managing the product to managing the org ("I spend more time managing the org than managing a product"), and the metric becomes a notional proxy like "alignment" (perverse correlation risk). Is the product-manager's real product the org when the terrain is divergent? Check against Dual Competence, Conservation of Organizational Cost.
 
 **Source story (2014 Twitter, revenue vs consumer product engineering):**
 - *Revenue* was known as high-functioning: predictable, focused, coherent roadmaps, reliable delivery. In retrospect it operated in a **converged** space: established domain (digital advertising), clear north star, common currency (dollars), directly measurable ROI, identifiable customers (large advertisers) one could talk to directly.
@@ -266,21 +272,30 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 - Agree on divergent-appropriate evidence: learning rate, quality of bets abandoned, time-to-kill, rather than delivery predictability.
 - For the leader above both: compare each org to its own past and to peers in the same regime.
 
+**Swap datapoint (Google, Oct 2026):** a colleague moved from Cloud (revenue-shaped, measured directly in dollars) to Core (delivers tech to the rest of Google; not dollarized). Her words, about two months in: "in cloud we could just look at the magic quadrant and implement features checklists known in the market. over here it is SO COMPLICATED." This is the swap counterfactual we lacked: same person, different terrain.
+- **Trajectory matters:** on arrival she "couldn't get over what a mess the org was and how it was struggling with everything" (the leadership/dysfunction reading, i.e. the attribution error in the wild). After ~2 months of doing the work she revised to the terrain reading. So the data point is a full cycle of misattribution then self-correction, not a clean initial perception. Open: what changed her mind (hitting the missing answer key while trying to use the old playbook?).
+- **Role templates are terrain-shaped:** on arrival she also couldn't work out why the PMs weren't behaving like, or doing the same work as, the top-performing PMs in her old org, which reinforced her sense that there were basic performance problems. Second-level misattribution: the *model of a good PM* is itself a product of the terrain it was formed in. Convergent terrain rewards prioritization against known metrics, roadmap execution, checklist delivery; divergent terrain rewards sensing, bet selection, sense-making, killing things well. Measured against the convergent template, divergent-terrain PMs read as underperformers. Consequences to explore: calibration/promotion on the dominant template, adverse selection at PM level, top PMs' track record partly terrain credit. Possible link to [[Dual Competence]].
+- **Insight:** the correction came from doing the work. Evaluators above the org who never do the work (twitter exec layer) don't get that correction, and the outsider's first read ("mess") is also the standard trigger for reorg or leader-replacement proposals.
+- **New force: imported convergence.** The magic quadrant is an externally produced answer key: analysts and competitors already paid for the exploration, so the org reads settled answers off a checklist. Convergence is not only an internal property of the domain; it's also about whether someone legible has already paid the exploration cost. Same for revenue at Twitter (ad industry's pre-existing buying metrics and formats). Where no one has produced the answer key, the org must produce it itself, and that looks like mess.
+- **Individual-scale terrain credit:** her competence in Cloud was partly terrain credit too. Entering divergent ground the newcomer is tempted to import checklist-thinking (fake roadmaps), conclude the org is dysfunctional (she did, initially), or conclude she's slipped.
+- Navigation implication: name the regime to people at the moment they cross between orgs.
+- Publishing note: anonymize heavily ("a colleague moving between two large orgs"); no Google specifics.
+
 **Overlap to resolve:** *Altitude Distortion* source story 1 (Google Security: clear-domain reporting expectations applied to a complex-domain problem) is adjacent. Probably distinct (that one is about information flow, this one about evaluation), but check at drafting time. Also Cynefin framing: converged ≈ clear/complicated, divergent ≈ complex. Also *Phase Transition Debt* (convergence as something exploration produces).
 
 **Open questions:**
-- Did anyone ever cross over between the two orgs (at Twitter, or Cloud ↔ Security at Google)? A real swap datapoint beats speculation.
+- Did anyone ever cross over between the two orgs at Twitter? (Google Cloud → Core swap datapoint now logged above; Twitter crossover still unknown.)
 - Leaders' reading of the comparison: how did consumer product leadership handle it?
 - Spectrum vs regime flip?
 - Possible sibling pattern about leader-as-scapegoat / revolving-door dynamics; current guess is it's a Degeneration section here, not standalone.
 
 **Related patterns:** Absence Accounting, Reward Loop Asymmetry, Perverse Correlation, Fluency Capture, Altitude Distortion (candidate), Phase Transition Debt (candidate)
 
-### Candidate: Unexamined Tailwind (working title)
+### Candidate: Tailwind Blindness
 
-**Status:** Early — one story, mechanism sketched.
+**Status:** Early — name locked, one story, mechanism sketched.
 
-**Name alternatives:** Unexplained Success, Tailwind Blindness. "Unexamined Tailwind" preferred: implies the driver was external or incidental and mistaken for skill.
+**Name:** Tailwind Blindness (settled). "Tailwind" implies the driver was external or incidental and mistaken for skill. Rejected: Unexamined Tailwind, Unexplained Success.
 
 **Source story (early 2014 Twitter):** User growth was slowing. Isaac sat on a senior "growth task force" chaired by the COO, meeting a couple of times a week. First finding, after a few meetings: nobody really knew what had driven growth in the first place. Twitter had grown gangbusters and nobody had stopped to ask why; only when the curve flattened did the org start to reflect.
 
@@ -301,3 +316,23 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 
 - Gnip/MoPub integration and decision closure: already logged above.
 - More stories to come from Isaac (hypergrowth, business dysfunction).
+
+---
+
+## Candidate: Scaffolding Penalty (working title; alt: Independence Penalty)
+
+**Status:** Early — one story, mechanism sketched. Separate from Divergence Blindness: considered and kept out, because inhospitable teams are mostly a difference of degree, not kind (open question below).
+
+**Source story (Google, Oct 2026):** In some parts of the internal platform organization, product management as a function isn't well understood. The org doesn't know how to leverage PMs, individual engineers are skeptical, and some engineering leaders are actively hostile to what they see as PM "interference." Isaac calls these teams "inhospitable" to PMs. When mid-ranking PMs are assigned to them, they are partnered with very senior PMs who can fight the organizational antibodies. At calibration, the mid-ranking PM is dinged for not showing "independence."
+
+**Core insight:** The rubric treats independence as a trait of the person when it is a property of person plus conditions. The scaffolding the conditions required (the senior partner) is penalized in the person it supports. The scaffolding's own work (preventing antibody rejection) is preventive and invisible, so it gets no ledger entry: an Absence Accounting angle.
+
+**Family:** the environment's contribution to outcomes credited or blamed on people. Tailwind Blindness (time-varying external force), Divergence Blindness (kind of work), and this (organizational hospitality to the function). Hold before minting a fourth; check whether there is a parent pattern.
+
+**Open questions:**
+- Is inhospitable a difference of degree or of kind? (The PM there does a different job first: earning standing before doing product.)
+- What does calibration do for the senior partner?
+- Does "independence" appear in the ladder literally?
+- Are there instances outside PM (e.g. a new team lead assigned a senior mentor)?
+
+**Related patterns (likely):** Absence Accounting, Divergence Blindness, Tailwind Blindness (candidate), Dual Competence

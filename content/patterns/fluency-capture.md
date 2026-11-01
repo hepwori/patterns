@@ -60,3 +60,4 @@ The organization becomes efficient at perpetuating itself rather than creating e
 - [[Perverse Correlation]] — metrics theater is perverse correlation applied to organizational self-evaluation
 - [[Alignment Mirage]] — performative alignment, once stable, becomes a generator of Alignment Mirages at scale
 - [[Absence Accounting]] — a parallel selection dynamic: where Fluency Capture selects against craft, Absence Accounting selects against preventive invisibility
+- [[Divergence Blindness]] — one way capture begins: a divergent organization adopts the artifacts of convergent work in order to be judged well
