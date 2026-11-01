@@ -270,17 +270,9 @@ theory of what consumer was for.
 
 ## Related Patterns
 
-- [[Absence Accounting]] — a common source of divergence: preventive work has no
-  common currency, so organizations built around it cannot be measured as
-  convergent ones are
-- [[Fluency Capture]] — the degeneration that follows when a divergent
-  organization adopts the artifacts of convergent work to be judged well
-- [[Perverse Correlation]] — what happens to the proxy metrics a divergent
-  organization adopts when it is pressed for a number
-- [[Reward Loop Asymmetry]] — the general bias toward what is visible and
-  quickly rewarded, of which a single convergent rubric is one case
-- [[Dual Competence]] — practitioners need craft and organizational fluency, and
-  which craft is valued depends on the kind of work
-- [[Alignment Mirage]] — when the outcome being moved is shared understanding,
-  it is also the easiest thing to fake: artifacts can look aligned while the
-  understanding diverges
+- [[Absence Accounting]] — a common source of divergence: preventive work has no common currency, so organizations built around it cannot be measured as convergent ones are
+- [[Fluency Capture]] — the degeneration that follows when a divergent organization adopts the artifacts of convergent work to be judged well
+- [[Perverse Correlation]] — what happens to the proxy metrics a divergent organization adopts when it is pressed for a number
+- [[Reward Loop Asymmetry]] — the general bias toward what is visible and quickly rewarded, of which a single convergent rubric is one case
+- [[Dual Competence]] — practitioners need craft and organizational fluency, and which craft is valued depends on the kind of work
+- [[Alignment Mirage]] — when the outcome being moved is shared understanding, it is also the easiest thing to fake: artifacts can look aligned while the understanding diverges

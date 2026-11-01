@@ -65,3 +65,4 @@ None of these fully solve the problem. They reduce the severity of the distortio
 - [[Conservation of Organizational Cost]] — the deferred cost doesn't disappear; it accumulates and eventually crystallizes
 - [[Reward Loop Asymmetry]] — the general mechanism driving evaluation toward the short-term visible
 - [[Fluency Capture]] — parallel selection dynamic: organization selects for performative alignment over craft; here it selects for productive visibility over preventive invisibility
+- [[Divergence Blindness]] — the same structural invisibility applied to divergent work, which leaves little of an artifact trail for evaluation to read

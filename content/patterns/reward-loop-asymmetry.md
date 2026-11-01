@@ -65,3 +65,4 @@ Design reward systems that acknowledge the existence of multiple feedback horizo
 - [[Dual Competence]] — navigating between craft quality and system fluency, including incentive literacy.
 - [[Fluency Capture]] — the organizational state produced when reward loop asymmetry persistently selects for fluency over craft.
 - [[Absence Accounting]] — reward loop asymmetry applied specifically to preventive work, where the ledger structurally cannot record what didn't happen.
+- [[Divergence Blindness]] — a single convergent rubric is one case of rewarding what is visible and quickly measured
