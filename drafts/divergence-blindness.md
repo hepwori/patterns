@@ -259,9 +259,9 @@ Revenue worked in digital advertising, a familiar, established domain with a
 clear north star. Returns on engineering could be measured directly in dollars,
 large customers could be identified and spoken to, and every project shared a
 currency. Consumer was building a class of thing no one had built before. It was
-unclear which metrics to optimize, there was no single customer (usage in Japan
-looked nothing like usage in the United States), and the return on engineering
-was impossible to calculate.
+unclear which metrics to optimize, there was no single customer (each geographic
+region was unique in its usage and had dozens of user archetypes), and the
+return on engineering was impossible to calculate.
 
 The difference was credited to leadership: the head of revenue product ran a
 tight ship, and the head of consumer product looked bad by comparison. Consumer
