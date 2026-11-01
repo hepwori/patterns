@@ -258,7 +258,7 @@ unpredictable, almost Brownian in its motion.
 Revenue worked in digital advertising, a familiar, established domain with a
 clear north star. Returns on engineering could be measured directly in dollars,
 large customers could be identified and spoken to, and every project shared a
-currency. Consumer was building something no one had built before. It was
+currency. Consumer was building a class of thing no one had built before. It was
 unclear which metrics to optimize, there was no single customer (usage in Japan
 looked nothing like usage in the United States), and the return on engineering
 was impossible to calculate.
