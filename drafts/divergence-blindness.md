@@ -135,11 +135,11 @@ away from the product and rarely appears in any evaluation.
 
 ## Navigation Strategies
 
-Name the kind of work before the comparison is made. At planning time, before a
-review cycle, and when someone moves between organizations, say which kind the
-work is and which of the four properties described in Context (a common
-currency, a nameable customer, a known causal chain, a short horizon) are
-missing.
+Make the kind of work explicit before anyone is evaluated on it. At planning
+time, before a review cycle, and when someone moves between organizations, say
+which kind it is and which of the four properties described in Context (a
+common currency, a nameable customer, a known causal chain, a short horizon)
+are missing.
 
 For practitioners:
 
