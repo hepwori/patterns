@@ -247,7 +247,7 @@ were known to want. Here no one had produced the checklist. The product managers
 who do well hold something else: a strawman model of the landscape,
 relationships they keep informed, a feel for how the space behaves, and sketches
 that build shared understanding. Their outcome is alignment, which has no
-dashboard, and they are graded against a role profile calibrated to convergent
+dashboard, but they are graded against a role profile calibrated to convergent
 work.
 
 **Twitter, 2014.** Two large product engineering organizations were seen very
