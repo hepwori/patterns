@@ -1,3 +1,5 @@
+> **Stale.** This is the April 2026 handoff, kept for history. It predates the move to `patterns.isaa.ch` and the Eleventy build. For current state see `CLAUDE.md` and the "State of play" table at the top of `scratchpad.md`.
+
 # PMP Project Handoff — April 2026
 
 ## What this is
