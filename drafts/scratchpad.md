@@ -3,6 +3,22 @@
 Holding area for candidate patterns that aren't ready for `content/patterns/` yet.
 Move to a dedicated draft file once a pattern has a name and rough section structure.
 
+## State of play (updated 2 Nov 2026)
+
+**Published this round:** Divergence Blindness (`content/patterns/divergence-blindness.md`).
+
+**Next up:** Tailwind Blindness. Its entry below is written as a handover, so start there. How we work (story first, fable-style Known Uses, naming rules, review by inline line comments) is in CLAUDE.md under "How patterns get made".
+
+| candidate | status | where |
+| --- | --- | --- |
+| Tailwind Blindness | name locked; one story; mechanism sketched; no draft file yet | Twitter thread, below |
+| Scaffolding Penalty | early; one story; possibly one of a family with Tailwind and Divergence Blindness | bottom of file |
+| Altitude Distortion | forces developed; navigation not | below |
+| Phase Transition Debt | unpublished file in `content/patterns/` plus a different copy in `drafts/`; reconcile before publishing | below, and `drafts/phase-transition-debt.md` |
+| Integration Preservation Insight, Decision Closure | early; Decision Closure may be a force inside the former | top of file |
+| Representational Parallax, Cost Crystallization, Epistemic Cover, Causal Flattening | early or named only | below |
+| When the product is the org | idea only; needs a story | Twitter thread, below |
+
 ---
 
 ## Candidate: The Integration Preservation Insight
@@ -232,85 +248,61 @@ This is distinct from [[Cultural Dialects]], which treats dialect differences as
 
 ## Thread: Twitter 2010–2015 (hypergrowth and business dysfunction)
 
-**Status:** Mine in progress — collecting stories before extracting. Work one pattern at a time, but log everything here first so nothing is lost. The candidates below likely chain: hypergrowth hides causality → growth stalls → consumer org blamed → leader churn → strategy resets → more apparent chaos.
+**Status:** Mine in progress — collecting stories before extracting. Divergence Blindness is published; Tailwind Blindness is next. Work one pattern at a time, but log everything here first so nothing is lost. The candidates likely chain: hypergrowth hides causality (Tailwind Blindness) → growth stalls → consumer org blamed → leader churn → strategy resets → more apparent chaos (Divergence Blindness).
 
 **Context:** Isaac was at Twitter ~2010–2015 (joined at ~100 people; ~3,500 by the MoPub acquisition). Other Twitter stories already logged above: Gnip/MoPub integration and decision closure (see *Integration Preservation Insight*, *Decision Closure*).
 
-### Candidate: Divergence Blindness (formerly Terrain Credit)
+### Divergence Blindness — PUBLISHED
 
-**Status:** Published → `content/patterns/divergence-blindness.md` (supersedes the notes below, which are kept as raw history). Name history: Terrain Mismatch → Terrain Credit → Terrain Blindness → Divergence Blindness. "Terrain" was dropped because it connotes degree (uphill, rough), and the pattern is about difference in kind: convergent and divergent work are different games with different winning behaviors. Plain difficulty ("hard mode") is a separate matter of degree that can be handled by a difficulty adjustment; it only partly helps here because it concedes the rubric. aka: Two Games, One Scorecard; Wrong Rubric. Core claim (Isaac): the kind of work is invisible from inside (fish and water), not merely forgotten.
+Published Nov 2026 → `content/patterns/divergence-blindness.md`. Name history: Terrain Mismatch → Terrain Credit → Terrain Blindness → Divergence Blindness. "Terrain" was dropped because it connotes degree (uphill, rough), and the pattern is about difference in kind: convergent and divergent work are different games with different winning behaviors. aka: Two Games, One Scorecard; Wrong Rubric. The Known Uses are fables, not literal retellings (Isaac's preference): the calibration room, the crossover (Cloud → Core, anonymized), Twitter 2014. The long raw notes that used to sit here are in git history.
 
-**Name:** Terrain Credit (settled). Leaders get credit or blame for ground they didn't choose; names the attribution error, which is the actionable part. Rejected: Terrain Mismatch (named the least interesting part, and put the mismatch between org and terrain when it's between the evaluator's yardstick and the terrain), Borrowed Yardstick, Settled Ground Premium, Yardstick Mismatch.
+**Cut from the published version in review (may resurface elsewhere):**
+- "Hard mode" as a calibration framing. It wins partial credit but concedes the scale (same game, steeper, versus a different game). The degree-of-difficulty/diving analogy survives in the pattern; the explicit "use hard mode with care" paragraph was cut.
+- The newcomer's first read as a force and as navigation (give newcomers a window of doing the work before conclusions harden).
+- Imported convergence (someone else paid for the exploration: analyst quadrants, standard buying metrics) as a force and as navigation ("check where convergence came from"). The idea survives in Context only.
 
-**Planned structure:** Context = converged vs divergent terrain (the descriptive claim, cynefin-adjacent, not novel alone). Problem = the attribution error. Consequences = the churn/reset reinforcing loop, adverse selection, borrowed yardstick as degeneration.
+**Still-live seeds and open questions:**
+- What flipped the colleague from aghast to gets-it? (Hypothesis, unconfirmed: hit the missing answer key while using the old playbook.)
+- Did anyone cross between revenue and consumer at Twitter? How did consumer product leadership handle the comparison?
+- Spectrum or regime flip? The four properties (currency, customer, causal chain, horizon) are the candidate axes.
+- Overlap check: *Altitude Distortion*'s Google Security story (clear-domain reporting expectations on a complex-domain problem). Probably distinct (information flow versus evaluation).
+- Alignment as the KPI in divergent work: signs of movement are shared language and analogies, shared inferences, decision quality when federated to the edge, and a single story for execs. Claude's ordering by how hard they are to fake (shared inferences and federated decision quality strongest) is judgment, not data. An idea that is not in the pattern: sample those strong signals periodically as a lightweight substitute for a dashboard.
 
-**Open framing decision (Isaac raised, Oct 2026):** since this is a PM pattern language, should the PM role-profile/calibration mismatch be the core? Mechanism: PMs in divergent orgs (e.g. Core) are graded against a role profile calibrated to converged work; in Cloud you move a revenue metric, in Core a notional "alignment" metric. Leading recommendation: make the single company-wide role profile/ladder applied across heterogeneous terrain the entry point of Problem (it's where PM readers feel it, and it's the concrete mechanism), with org-level attribution (Twitter) as the same dynamic one scale up, and the churn loop as its org-level consequence. Keep the name; "credit" works at both scales. Known Uses: Twitter (org scale), Cloud→Core (individual scale).
+**Parked candidate: when the product is the org.** In divergent orgs with no usable product metric, PM work shifts from managing the product to managing the org ("I spend more time managing the org than managing a product"), and the metric becomes a notional proxy like "alignment" (Alignment Mirage risk). Is the PM's real product the org when the work is divergent? Check against Dual Competence and Conservation of Organizational Cost. Needs a story.
 
-**Possible separate candidate (not yet decided):** in divergent orgs with no usable product metric, PM work shifts from managing the product to managing the org ("I spend more time managing the org than managing a product"), and the metric becomes a notional proxy like "alignment" (perverse correlation risk). Is the product-manager's real product the org when the terrain is divergent? Check against Dual Competence, Conservation of Organizational Cost.
+### Candidate: Tailwind Blindness — NEXT TO DRAFT (handover)
 
-**Source story (2014 Twitter, revenue vs consumer product engineering):**
-- *Revenue* was known as high-functioning: predictable, focused, coherent roadmaps, reliable delivery. In retrospect it operated in a **converged** space: established domain (digital advertising), clear north star, common currency (dollars), directly measurable ROI, identifiable customers (large advertisers) one could talk to directly.
-- *Consumer* was known as a shitshow: meandering, incoherent, unpredictable, "almost brownian." In retrospect it was on a **divergent** journey ("nobody has ever built a twitter before"): unclear which metrics to optimize or how they'd play out long-term; no single "customer" (research meant broad ethnography across very different personas, e.g. Japanese vs US usage); ROI of engineering effectively incalculable.
-- *Attribution:* credited to leadership. Head of revenue product was seen as running a tight ship; head of consumer product looked bad by comparison. Isaac: some of that was probably real, but terrain explains far more.
-- *Churn:* consumer product had a revolving door of heads of product (joke: the Spinal Tap drummer); ~6 in the ~5 years Isaac was there. Each brought a different theory of what consumer was for.
+**Status:** Name locked. One story, mechanism sketched, no draft file yet. Create `drafts/tailwind-blindness.md` when starting (pattern format is in CLAUDE.md).
 
-**Second instance (Google, present day):** Cloud has a revenue-shaped org; product security is consumer-shaped. Security outcomes are near-impossible to dollarize, investments are fungible, metrics are unclear and suffer from [[Absence Accounting]]. (Publishable version should be anonymized/kept light.)
+**Name:** Tailwind Blindness. "Tailwind" implies the driver was external or incidental and was mistaken for skill. Rejected: Unexamined Tailwind, Unexplained Success.
 
-**Core insight:** Orgs differ in how much of their problem space is *settled*: is there a common currency, a nameable customer, a known causal chain from work to outcome? Where there is, planning converges and "high-functioning" is an honest label. Where there isn't, the same org looks chaotic because the work is exploration, and exploration looks like brownian motion from outside. The org gets judged by one yardstick, so terrain is misread as management quality (org-scale attribution error).
-
-**Candidate axes (spectrum, not binary):** currency (is there one?), customer (nameable?), causality (does work → outcome measurably?), horizon (how long until you know?). Possibly convergence is something exploration *produces* (revenue was once divergent too) → link to phase-transition thinking.
-
-**Consequences / Degenerations:**
-- **Reinforcing loop (likely the engine):** divergent terrain → looks chaotic → blamed on leader → leader replaced → new thesis, re-plan, reset → looks more chaotic → repeat. Terrain sets the initial condition; misattribution compounds it. Churn is both effect and cause, so terrain and leadership can't be cleanly separated (state this in Forces).
-- **Adverse selection:** ambitious people route to convergent orgs; divergent orgs, which need the best judgment because they have no metric to lean on, get the leftovers.
-- **Borrowed yardstick:** divergent org is pressured to produce roadmaps and ROI models that are theater → [[Fluency Capture]] / [[Perverse Correlation]] as a *degeneration*, not a cause.
-- **Convergent org's blind spot:** never learns whether tight ship is skill or terrain; exports its playbook into places it doesn't fit.
-- **Unfalsifiable leader-fit story:** "still hasn't found the right leader." The swap counterfactual (revenue leader in consumer) is almost never run, which is why the misattribution survives.
-
-**Navigation strategies (rough):**
-- Name the terrain explicitly *before* the comparison happens (planning time, not post-hoc defense).
-- Agree on divergent-appropriate evidence: learning rate, quality of bets abandoned, time-to-kill, rather than delivery predictability.
-- For the leader above both: compare each org to its own past and to peers in the same regime.
-
-**Swap datapoint (Google, Oct 2026):** a colleague moved from Cloud (revenue-shaped, measured directly in dollars) to Core (delivers tech to the rest of Google; not dollarized). Her words, about two months in: "in cloud we could just look at the magic quadrant and implement features checklists known in the market. over here it is SO COMPLICATED." This is the swap counterfactual we lacked: same person, different terrain.
-- **Trajectory matters:** on arrival she "couldn't get over what a mess the org was and how it was struggling with everything" (the leadership/dysfunction reading, i.e. the attribution error in the wild). After ~2 months of doing the work she revised to the terrain reading. So the data point is a full cycle of misattribution then self-correction, not a clean initial perception. Open: what changed her mind (hitting the missing answer key while trying to use the old playbook?).
-- **Role templates are terrain-shaped:** on arrival she also couldn't work out why the PMs weren't behaving like, or doing the same work as, the top-performing PMs in her old org, which reinforced her sense that there were basic performance problems. Second-level misattribution: the *model of a good PM* is itself a product of the terrain it was formed in. Convergent terrain rewards prioritization against known metrics, roadmap execution, checklist delivery; divergent terrain rewards sensing, bet selection, sense-making, killing things well. Measured against the convergent template, divergent-terrain PMs read as underperformers. Consequences to explore: calibration/promotion on the dominant template, adverse selection at PM level, top PMs' track record partly terrain credit. Possible link to [[Dual Competence]].
-- **Insight:** the correction came from doing the work. Evaluators above the org who never do the work (twitter exec layer) don't get that correction, and the outsider's first read ("mess") is also the standard trigger for reorg or leader-replacement proposals.
-- **New force: imported convergence.** The magic quadrant is an externally produced answer key: analysts and competitors already paid for the exploration, so the org reads settled answers off a checklist. Convergence is not only an internal property of the domain; it's also about whether someone legible has already paid the exploration cost. Same for revenue at Twitter (ad industry's pre-existing buying metrics and formats). Where no one has produced the answer key, the org must produce it itself, and that looks like mess.
-- **Individual-scale terrain credit:** her competence in Cloud was partly terrain credit too. Entering divergent ground the newcomer is tempted to import checklist-thinking (fake roadmaps), conclude the org is dysfunctional (she did, initially), or conclude she's slipped.
-- Navigation implication: name the regime to people at the moment they cross between orgs.
-- Publishing note: anonymize heavily ("a colleague moving between two large orgs"); no Google specifics.
-
-**Overlap to resolve:** *Altitude Distortion* source story 1 (Google Security: clear-domain reporting expectations applied to a complex-domain problem) is adjacent. Probably distinct (that one is about information flow, this one about evaluation), but check at drafting time. Also Cynefin framing: converged ≈ clear/complicated, divergent ≈ complex. Also *Phase Transition Debt* (convergence as something exploration produces).
-
-**Open questions:**
-- Did anyone ever cross over between the two orgs at Twitter? (Google Cloud → Core swap datapoint now logged above; Twitter crossover still unknown.)
-- Leaders' reading of the comparison: how did consumer product leadership handle it?
-- Spectrum vs regime flip?
-- Possible sibling pattern about leader-as-scapegoat / revolving-door dynamics; current guess is it's a Degeneration section here, not standalone.
-
-**Related patterns:** Absence Accounting, Reward Loop Asymmetry, Perverse Correlation, Fluency Capture, Altitude Distortion (candidate), Phase Transition Debt (candidate)
-
-### Candidate: Tailwind Blindness
-
-**Status:** Early — name locked, one story, mechanism sketched.
-
-**Name:** Tailwind Blindness (settled). "Tailwind" implies the driver was external or incidental and mistaken for skill. Rejected: Unexamined Tailwind, Unexplained Success.
-
-**Source story (early 2014 Twitter):** User growth was slowing. Isaac sat on a senior "growth task force" chaired by the COO, meeting a couple of times a week. First finding, after a few meetings: nobody really knew what had driven growth in the first place. Twitter had grown gangbusters and nobody had stopped to ask why; only when the curve flattened did the org start to reflect.
+**Source story (early 2014, Twitter):** User growth was slowing. Isaac sat on a senior "growth task force" chaired by the COO, meeting a couple of times a week. First finding, after a few meetings: nobody really knew what had driven growth in the first place. Twitter had grown gangbusters and nobody had stopped to ask why; only when the curve flattened did the org start to reflect.
 
 **Core insight:** Success suppresses causal inquiry. Nobody audits a rising curve (audits cost attention, no felt need), so the causal model never gets built. Adversity then demands the model precisely when evidence is worst: no instrumentation was put in place for the question, the people who'd remember have churned, counterfactuals are gone, and "what drove growth" becomes archaeology. Survivorship bias applied to your own history.
 
 **What makes it a pattern, not a platitude:** timing asymmetry. The inquiry is cheapest when it feels least necessary.
 
-**Possible Degenerations:** post-hoc narrative hardens into strategy; competing confident theories held by different execs, none tested; return to tailwind-as-default if growth ticks back up.
+**Family:** the environment's contribution to outcomes gets credited or blamed on people. Tailwind Blindness (time axis: your own history of success), Divergence Blindness (space axis: comparing across kinds of work), Scaffolding Penalty (the organization's hospitality to the function). Isaac has not yet endorsed the family framing; check it before leaning on it. When this one publishes, add Tailwind Blindness to Divergence Blindness's Related Patterns (it is not linked now because it was unpublished and the build would warn), and the reverse.
 
-**Open questions (ask Isaac):**
+**Overlap checks before drafting:**
+- *Causal Flattening* (below): "what drove growth" is a condition, not an event, so five whys would flatten it.
+- *Absence Accounting* / Counterfactual Blindness cluster: an unexplained tailwind is an invisible ledger entry.
+- *Phase Transition Debt*: no warning signal while things look healthy.
+- *Conservation of Organizational Cost*: the cost of understanding was deferred, not eliminated.
+- *Reward Loop Asymmetry*: nobody is rewarded for explaining a success.
+
+**Possible degenerations:** a post-hoc narrative hardens into strategy; competing confident theories held by different execs, none tested; return to tailwind-as-default if growth ticks back up.
+
+**Navigation seeds (Claude's hypotheses; not yet discussed with Isaac):** ask "why is this working?" on a cadence, while it is working; instrument for causal attribution before it is needed (cohorts, holdouts, growth accounting); keep a hypothesis log so competing explanations are written down while memory is fresh; treat a sustained tailwind as an open question, not a settled fact.
+
+**Suggested shape (hypotheses, from how Divergence Blindness came together):** Context = hypergrowth and what a tailwind is. Problem = the tailwind is invisible, and the timing asymmetry. Forces = audits cost attention; success feels like skill; the people with memory churn; success is more naturally explained as skill than as luck or circumstance. Known Uses = the growth task force as a fable, plus at least one second instance.
+
+**Questions to ask Isaac first:**
 - What did the task force conclude? Real drivers found, or plausible stories?
-- Did different execs already hold confident, competing explanations?
+- Did different execs already hold confident, competing explanations that were never tested?
 - Was anything instrumented afterward, or did the org relax when growth recovered?
-
-**Related patterns:** Absence Accounting (an unexplained tailwind is an invisible ledger entry), Reward Loop Asymmetry, Conservation of Organizational Cost (cost of understanding deferred, not eliminated), Counterfactual Blindness (cluster above)
+- Any other instances, outside Twitter? A second Known Use would help.
+- Does the sibling framing (environment credited to people) feel right, or are these separate patterns?
 
 ### Other Twitter 2010–2015 material to mine
 

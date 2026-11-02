@@ -25,7 +25,7 @@ npm run build      # writes the static site to _site/
 
 Node version is in `.node-version`; Eleventy is pinned exactly in `package.json`.
 
-**Add a pattern:** write `content/patterns/<slug>.md`, add it to `content/index.json` under a category, add it to the Related Patterns of any patterns that should point to it, then `npm run build` and check for `[patterns]` warnings.
+**Add a pattern:** write `content/patterns/<slug>.md`, add it to `content/index.json` under a category, add it to the Related Patterns of any patterns that should point to it, then `npm run build` and check for `[patterns]` warnings. Each Related Patterns bullet must be a single line (`- [[Title]] — reason`), and the `summary` should be short and match the one in `index.json`; see CLAUDE.md.
 
 ## Deployment
 
