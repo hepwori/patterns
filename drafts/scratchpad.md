@@ -11,7 +11,7 @@ Move to a dedicated draft file once a pattern has a name and rough section struc
 
 | candidate | status | where |
 | --- | --- | --- |
-| Tailwind Blindness | name locked; one story; mechanism sketched; no draft file yet | Twitter thread, below |
+| Tailwind Blindness | name locked; one story; mechanism sketched; skeleton in `drafts/tailwind-blindness.md` | Twitter thread, below |
 | Scaffolding Penalty | early; one story; possibly one of a family with Tailwind and Divergence Blindness | bottom of file |
 | Altitude Distortion | forces developed; navigation not | below |
 | Phase Transition Debt | unpublished file in `content/patterns/` plus a different copy in `drafts/`; reconcile before publishing | below, and `drafts/phase-transition-debt.md` |
@@ -272,7 +272,7 @@ Published Nov 2026 → `content/patterns/divergence-blindness.md`. Name history:
 
 ### Candidate: Tailwind Blindness — NEXT TO DRAFT (handover)
 
-**Status:** Name locked. One story, mechanism sketched, no draft file yet. Create `drafts/tailwind-blindness.md` when starting (pattern format is in CLAUDE.md).
+**Status:** Name locked. One story, mechanism sketched. A skeleton exists at `drafts/tailwind-blindness.md` (first-pass text from the mechanism below, with TODO markers where Isaac's input is needed and (hypothesis) tags on Claude's inferences).
 
 **Name:** Tailwind Blindness. "Tailwind" implies the driver was external or incidental and was mistaken for skill. Rejected: Unexamined Tailwind, Unexplained Success.
 
