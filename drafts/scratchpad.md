@@ -11,7 +11,7 @@ Move to a dedicated draft file once a pattern has a name and rough section struc
 
 | candidate | status | where |
 | --- | --- | --- |
-| Tailwind Blindness | name locked; one story; mechanism sketched; skeleton in `drafts/tailwind-blindness.md` | Twitter thread, below |
+| Tailwind Blindness | name locked; draft 1 in `drafts/tailwind-blindness.md` awaiting Isaac's review; one story, no second Known Use yet | Twitter thread, below |
 | Scaffolding Penalty | early; one story; possibly one of a family with Tailwind and Divergence Blindness | bottom of file |
 | Altitude Distortion | forces developed; navigation not | below |
 | Phase Transition Debt | unpublished file in `content/patterns/` plus a different copy in `drafts/`; reconcile before publishing | below, and `drafts/phase-transition-debt.md` |
@@ -297,12 +297,14 @@ Published Nov 2026 → `content/patterns/divergence-blindness.md`. Name history:
 
 **Suggested shape (hypotheses, from how Divergence Blindness came together):** Context = hypergrowth and what a tailwind is. Problem = the tailwind is invisible, and the timing asymmetry. Forces = audits cost attention; success feels like skill; the people with memory churn; success is more naturally explained as skill than as luck or circumstance. Known Uses = the growth task force as a fable, plus at least one second instance.
 
-**Questions to ask Isaac first:**
-- What did the task force conclude? Real drivers found, or plausible stories?
-- Did different execs already hold confident, competing explanations that were never tested?
-- Was anything instrumented afterward, or did the org relax when growth recovered?
-- Any other instances, outside Twitter? A second Known Use would help.
-- Does the sibling framing (environment credited to people) feel right, or are these separate patterns?
+**Isaac's answers (2 Nov 2026):**
+- Task force: commissioned a lot of point research, which basically came back "it's really complicated". The task force then evolved into an entire organization dedicated to studying, understanding, and driving growth. (So not real drivers found, and not plausible stories either: honest complexity.)
+- Execs: each used the growth deficit as a vehicle to push a pet project or initiative. (He did not say they held competing *theories*; that was Claude's guess.)
+- Instrumentation: everything was instrumented afterward. The org realized it had a massive instrumentation and analytics debt and paid it down urgently.
+- Second instance outside Twitter: none yet. "Probably everywhere", nothing comes to mind.
+- Family framing (environment's contribution credited to people; Tailwind / Divergence Blindness / Scaffolding Penalty): endorsed.
+
+**Draft status:** `drafts/tailwind-blindness.md` draft 1 written from these answers, awaiting Isaac's inline comments. Dropped from the draft as unconfirmed: "return to tailwind-as-default if growth ticks back up". Open: a second Known Use; Navigation Strategies are all still Claude's hypotheses.
 
 ### Other Twitter 2010–2015 material to mine
 
