@@ -18,6 +18,7 @@ Move to a dedicated draft file once a pattern has a name and rough section struc
 | Integration Preservation Insight, Decision Closure | early; Decision Closure may be a force inside the former | top of file |
 | Representational Parallax, Cost Crystallization, Epistemic Cover, Causal Flattening | early or named only | below |
 | When the product is the org | idea only; needs a story | Twitter thread, below |
+| Artifact Fixation (working title) | raw; interview question + conviction, no story yet; may be two patterns (diagnosis, design) | "Candidate: the unit of design" at bottom of file |
 
 ---
 
@@ -328,3 +329,37 @@ Published Nov 2026 → `content/patterns/divergence-blindness.md`. Name history:
 - Are there instances outside PM (e.g. a new team lead assigned a senior mentor)?
 
 **Related patterns (likely):** Absence Accounting, Divergence Blindness, Tailwind Blindness (candidate), Dual Competence
+
+---
+
+## Candidate: the unit of design is the system, not the thing (working title: Artifact Fixation; alts: Product Exhaust, Upstream Product)
+
+**Status:** Raw (14 Nov 2026). Source is an interview question and a conviction, not yet a story. Story first: needs a real instance before minting.
+
+**Source: Isaac's interview two-beat.** (1) Tell me about a product you use every day but find annoying. (2) How do you think it got that way? Candidates expect "how would you improve it." Isaac prefers beat 2: assume the maker is well motivated, smart, funded, success-hungry; the annoying product exists anyway, so diagnose the system that produced it (no care for the use case? bad research? missing feedback loop?). Surfaced while writing candidate feedback.
+
+**Two adjacent ideas Isaac brought:**
+- To get an outcome in a large org, design an incentive system whose *stable equilibrium* is a motion that delivers the outcome. Nothing else works. (Source not yet given; ask.)
+- Agentic products: hill-climbing and continuous evals are about building the system that builds the product, not the product.
+
+**Crystallization (Isaac endorsed):** the unit of design is the system that produces the thing, not the thing. The interview question is a probe for which level a PM instinctively operates at. Isaac wants this from senior PMs: ideas are easy, designing the system that produces them is hard; durable leverage is in the system; investing in features is the more junior play.
+
+**Claude's inferences (strike freely):**
+- Sharp inference in the question: capable, motivated, funded maker plus a persistent flaw means the flaw is an equilibrium (produced or tolerated), not an oversight.
+- Artifact-level fixes regress if the attractor does not move.
+- Depreciation asymmetry: features depreciate and must be re-earned; systems compound.
+- The likely *force*: reward runs backwards. Features are visible, attributable, quarterly; system returns are diffuse and show up as other people's features doing better (Reward Loop Asymmetry + Absence Accounting applied to one's own roadmap). So the junior play persists even among people who know better.
+- Diagnosis taxonomy for "why is it still annoying": nobody paid to care; can't see it (feedback loop); can't fix it (cost shifted, fix is organizationally expensive); you are not the customer (buyer is not user, optimized for someone else's metric); annoying *because* it works on the metric (Perverse Correlation). Last two are the ones candidates miss.
+- Degeneration: platform astronautics, process for its own sake, factory with no car; and a system with the wrong equilibrium is a better-optimized wrong thing (evals measuring the wrong thing hill-climb into Perverse Correlation).
+- Agentic/eval example may be a different mechanism (feedback gradient, not incentive) with the same level shift. Unconfirmed that they belong together.
+
+**Open: one pattern or two?** (a) diagnosis: reading the system from the artifact; (b) design: building the system whose equilibrium is the outcome. Possibly a shared parent. Voice risk: junior-versus-senior reads prescriptive; write as "investment tends to flow to the artifact because...", with the senior move as a navigation strategy.
+
+**Overlap check:** Causal Flattening (condition vs event; closest cousin, maybe the diagnostic half), Conservation of Organizational Cost (one diagnosis), Ontology Leakage (Conway; one diagnosis), Perverse Correlation / Reward Loop Asymmetry / Symbolic Friction (incentive-design half partly covered; new bit is "stable equilibrium or nothing"), Absence Accounting (system returns are an absence ledger). Outside prior art: Conway's law, Meadows on leverage points, Beer's POSIWID. Platitude risk: "think in systems" must carry something specific (the equilibrium inference, the diagnosis taxonomy).
+
+**Questions for Isaac:**
+- Best and worst candidate answers to beat 2? Best diagnosis heard is a Known Use seed.
+- Where did the incentive-equilibrium idea come from? Any case where it worked or failed at his own orgs?
+- Agentic team conversation: a moment of "fix the loop, not the output"? That is the story.
+- A system-level investment that paid off, or a feature treadmill that never got out of its own way?
+- (a), (b), or both?
