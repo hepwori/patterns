@@ -363,3 +363,11 @@ Published Nov 2026 → `content/patterns/divergence-blindness.md`. Name history:
 - Agentic team conversation: a moment of "fix the loop, not the output"? That is the story.
 - A system-level investment that paid off, or a feature treadmill that never got out of its own way?
 - (a), (b), or both?
+
+**Update 14 Nov 2026: candidate answers (Isaac), and a ladder.**
+
+Weakest answer to beat 2: "they somehow missed it" (no cause; treats the company as one careless person, the fundamental attribution error at org scale). Better: "they're not targeting my use case; an intentional, rational decision not to care" (targeting/incentives); "they're not doing the research that would find it" (feedback loop, but assumes effort fixes it). Best seen: product had a very indirect go-to-market motion, hard to instrument with a feedback loop from end user to producer; buyer and user are different constituencies.
+
+**Known Use seed (illustration for half (a); a candidate's answer, not Isaac's own story):** smart lightswitches in a new-construction house, installed by the builder. The buyer was the contractor, who does not care how the switches are to use and is unmotivated by feedback on them. The switch is succeeding for its real customer (cheap, easy install, no callbacks). The user has no exit (sunk in the wall) and no voice (no channel back). Hirschman's exit/voice/loyalty is relevant prior art (Claude's inference).
+
+**Ladder (Claude's synthesis):** answers rank by where they locate the cause: no cause (missed it) → targeting/incentive → feedback effort → structurally broken loop (indirect GTM) → buyer is not user. Candidate rubric: the senior answer finds the rung where effort stops being the variable. Candidate navigation strategy: ask where the signal would have had to travel, and what breaks it.
